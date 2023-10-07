@@ -1,10 +1,10 @@
-#Caso de uso
+# Caso de uso
 
  * UC - 001: Registrar un nuevo alumno
    
-#Actores
+# Actores
 
  * Profesor
    
-#Tipo 
+# Tipo 
   
