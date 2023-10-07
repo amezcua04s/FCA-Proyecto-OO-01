@@ -2,9 +2,9 @@
 
  * UC - 001: Registrar un nuevo alumno
    
-# Actores
+## Actores
 
  * Profesor
    
-# Tipo 
+## Tipo 
   
