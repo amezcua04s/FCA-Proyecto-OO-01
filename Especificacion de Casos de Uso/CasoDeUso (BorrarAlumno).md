@@ -14,8 +14,7 @@
 - El profesor desea dar de baja un alumno
   
 ## Bried Description
-El profesor podra dar de baja algun alumno que exista en el sistema o quitandolo del grupo (baja parcial), 
-eliminando todos los elementos que esten asociados con el alumno (nombre y tarjeta MI) esto en caso de baja real
+El profesor podra dar de baja algún alumno que exista en el sistema (__baja real__ que elimina de forma completa los datos del alumno, o simplemente una __baja parcial__ que elimina al alumno del grupo indicado)
 
 ## Trigger
 El profesor ingresara a la opcion de "Eliminar alumno"
