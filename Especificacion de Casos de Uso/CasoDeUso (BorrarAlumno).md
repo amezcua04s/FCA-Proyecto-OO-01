@@ -25,7 +25,7 @@ El profesor ingresara a la opcion de "Eliminar alumno"
 
 ## Normal Flow of Events
 1. El profesor ingresa al apartado de eliminar alumno
-2. El profesor indica el alumno o alumnos que desea eliminar
+2. El profesor indica el alumno que desea eliminar
 3. El sistema muestra los datos de los alumnos
 4. El sistema pregunta que tipo de baja sera (parcial o real)
 5. El sistema pregunta si quiere continuar la operacion
@@ -41,6 +41,6 @@ El profesor ingresara a la opcion de "Eliminar alumno"
 - S-2 En el paso 5
   1. El profesor decide cancelar la operación
   1. El sistema cancela la operación
-  1. El caso de uso se reanuda en el paso 5 del flujo normal
+  1. El caso de uso se reanuda en el paso 6 del flujo normal
 
 ## Alternate / Exceptional Flows
