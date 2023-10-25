@@ -10,36 +10,36 @@
 ## Tipo 
  * Secundario
    
-## Stakeholders and Interests:
+## Interesados:
 - El profesor desea dar de baja un alumno
   
-## Bried Description
-El profesor podra dar de baja algún alumno que exista en el sistema (__baja real__ que elimina de forma completa los datos del alumno, o simplemente una __baja parcial__ que elimina al alumno del grupo indicado)
+## Breve descripción
+El profesor podra dar de baja algún alumno que exista en el sistema y con ello todos los registros que se relacionen con este
 
 ## Trigger
 El profesor ingresara a la opcion de "Eliminar alumno"
 
-## Relationships
-- **Generalización**: Modificar Alumno
+## Relaciones
+- **Inclusión**: Eliminar Tarjeta
 
-## Normal Flow of Events
+## Flujo normal de eventos
 1. El profesor ingresa al apartado de eliminar alumno
 2. El profesor indica el alumno que desea eliminar
-3. El sistema muestra los datos de los alumnos
-4. El sistema pregunta que tipo de baja sera (parcial o real)
-5. El sistema pregunta si quiere continuar la operacion
+3. El sistema muestra los datos del alumno
+4. El sistema pregunta si quiere continuar la operacion
 6. El sistema muestra el mensaje del resultado de la operación
    
-## Sub-Flows
-- S-1 En el paso 4
-  1. El profesor decide baja parcial del alumno
-  1. Se muestran los datos del alumno y se pregunta si desea continuar
-  1. El sistema simplemente eliminara la asociacion del alumno con el grupo (Sin borrar la información del alumno del sistema)
-  1. El caso de uso se reanuda en el paso 6 del flujo normal
-  
-- S-2 En el paso 5
+## Subflujos
+
+- S-1 En el paso 4 (Caso de aceptar)
+  1. El profesor decide continuar con la operación
+  2. El sistema utiliza el caso de uso de eliminar tarjeta
+  3. Elimina todos los elementos que conformen al alumno en el sistema
+  4. El caso de uso se reanuda en el paso 5 del flujo normal
+
+- S-2 En el paso 4 (Caso de cancelar)
   1. El profesor decide cancelar la operación
   1. El sistema cancela la operación
-  1. El caso de uso se reanuda en el paso 6 del flujo normal
+  1. El caso de uso se reanuda en el paso 5 del flujo normal
 
 ## Alternate / Exceptional Flows
