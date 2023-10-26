@@ -1,5 +1,5 @@
 # ID
-- 002
+- UC - 002
   
 # Caso de uso
 * Registrar Tarjeta
