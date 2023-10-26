@@ -10,32 +10,36 @@
 ## Tipo 
  * Secundario
    
-## Stakeholders and Interests:
+## Partes interesadas e intereses:
 - El profesor desea registrar un nuevo alumno 
-- El alumno podrá utilizar su tarjeda de MI para el registro de asistencia
+- El alumno podrá utilizar una nueva tarjeta de MI para el registro de asistencia
   
-## Bried Description
+## Breve descripcion
 El profesor podra modificar un alumno que ya exista en el sistema, cambiando el nombre del alumno o la tarjeta MI asociada al alumno
 
-## Trigger
+## Disparador
 El profesor ingresara a la opcion de "Modificar alumno"
 
-## Relationships
-- **Extends**: Modificar Tarjeta
+## Relaciones
+- **Extiende**: Modificar Tarjeta
 
-## Normal Flow of Events
+## Flujo normal de eventos
 1. El profesor ingresa al apartado de modificar alumno
 2. El profesor indica el alumno que desea modificar
 3. El sistema muestra los datos del alumno
-4. El sistema pide los datos que se modificaran
-5. El sistema asigna el nombre y pregunta si se modificara el NFC
-6. El sistema muestra los nuevos datos y pide que se confirme
-7. El sistema muestra mensaje de éxito con los datos que se le asignaron
+4. El sistema pregunta que se modificara (Nombre o tarjeta)
+5. El sistema pide al profesor el nuevo nombre
+6. El sistema verifica que el nombre no exista en el sistema
+7. El sistema muestra los nuevos datos y pide que se confirme
+8. El sistema muestra mensaje del resultado de la operacion
 
-## Sub-Flows
 
-S-1 En el paso 5
-  1. El caso de uso le pasa el flujo al caso de uso de modificacion NFC
-  2. El caso de uso continua en el paso 6
+## Subflujos
 
-## Alternate / Exceptional Flows
+S-1 En el paso 4 (En caso de querer modificar la tarjeta del alumno)
+  1. Si el profesor selecciona que se modificara la tarjeta se extiende el caso de uso a "ModificarTarjeta"
+  2. El caso de uso reanuda el flujo en el paso 7
+
+S-2 En el paso 6 (En caso de ya encontrar el nombre en el sistema)
+  1. El sistema hacer saber al profesor este error
+  2. El sistema cancela la operación y continua el flujo en el paso 8
