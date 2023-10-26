@@ -6,7 +6,6 @@
    
 ## Actores
 * Profesor
-* Alumno
   
 ## Tipo 
 * Escencial
