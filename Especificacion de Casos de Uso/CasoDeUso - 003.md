@@ -1,5 +1,5 @@
 # ID
-- UC - 000
+- 003
   
 # Caso de uso
  * Registrar alumno
@@ -19,9 +19,6 @@
 
 ## Disparador
 - El profesor ingresara a la opcion de "Registrar nuevo alumno"
-
-### Tipo
-- Externo
 
 ## Relaciones
 - **Inclusion**: Registro Tarjeta
