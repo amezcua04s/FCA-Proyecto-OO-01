@@ -1,5 +1,5 @@
 # ID
-- UC - 000
+- 002
   
 # Caso de uso
 * Registrar Tarjeta
@@ -19,9 +19,6 @@
   
 ## Disparador
 - Caso de uso registro de alumno
-
-## Relaciones
-- **Extension**: Caso de uso RegistrarAlumno
 
 ## Flujo normal de eventos
 1. El caso de uso RegistrarAlumno extiende a este
