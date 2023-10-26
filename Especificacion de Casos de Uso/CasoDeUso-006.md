@@ -1,6 +1,6 @@
 # ID: 
-- 000
-- 
+- 006
+  
 # Caso de uso        
  * Eliminar grupo
    
