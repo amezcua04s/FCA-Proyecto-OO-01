@@ -2,7 +2,7 @@
 - 006
   
 # Caso de uso        
- * Eliminar grupo
+ * Baja grupo
    
 ## Actores
   - Profesor
@@ -11,7 +11,7 @@
 - Secundario
 
 ## Relaciones
-- **Generalización**: Eliminar Alumno
+- **Incluye**: Eliminar Alumno
 
 ## Flujo de eventos
 1. El profesor entra al apartado de eliminar grupo
