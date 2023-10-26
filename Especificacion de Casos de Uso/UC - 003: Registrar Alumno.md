@@ -1,5 +1,5 @@
 # ID
-- 003
+- UC - 003
   
 # Caso de uso
  * Registrar alumno
