@@ -5,7 +5,8 @@
 - Eliminar Tarjeta
    
 ## Actores
-- Profesor
+- UC - 005
+- UC - 007
     
 ## Tipo 
 - Terciario
@@ -17,7 +18,7 @@
 - El sistema borrara de forma definitiva el valor de la tarjeta, por consecuencia del cambio de valor de esta o por baja real del alumno del sistema
 
 ## Disparador
-- El profesor decide eliminar de forma real un alumno
+- El profesor decide eliminar de forma total a un alumno
 - El profesor modifica la información de la tarjeta del alumno
 
 ## Relaciones
