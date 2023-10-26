@@ -1,5 +1,5 @@
 # ID: 
-- 006
+- UC - 006
   
 # Caso de uso        
  * Baja grupo
