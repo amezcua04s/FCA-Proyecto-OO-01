@@ -1,8 +1,8 @@
 # ID
- - 000
+ - 001
    
 # Caso de uso
- * Registrar un nuevo grupo
+ * Registrar grupo
    
 ## Actores
  * Profesor
