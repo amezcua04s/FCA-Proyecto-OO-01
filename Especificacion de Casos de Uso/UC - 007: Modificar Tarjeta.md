@@ -18,7 +18,7 @@
 - El profesor cambiara el valor de la tarjeta que esta asociado a algún alumno
 
 ## Disparador
-- El profesor selecciona "Modificar tarjeta"
+- El profesor selecciona "Modificar tarjeta" en el caso de uso de modificar alumno
 
 ## Relaciones
 - **Inlcuye**: Borrar Tarjeta
