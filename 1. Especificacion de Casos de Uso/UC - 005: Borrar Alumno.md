@@ -20,7 +20,7 @@ El profesor podra dar de baja algún alumno que exista en el sistema y con ello 
 El profesor ingresara a la opcion de "Eliminar alumno"
 
 ## Relaciones
-- **Inclusión**: Eliminar Tarjeta
+- **Incluye**: Eliminar Tarjeta
 
 ## Flujo normal de eventos
 1. El profesor ingresa al apartado de eliminar alumno
