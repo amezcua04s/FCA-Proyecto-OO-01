@@ -11,7 +11,7 @@
 - Terciario
    
 ## Intereses:
-- El profesor desea exportar el informe solicitao previamente 
+- El profesor desea exportar el informe solicitado previamente 
   
 ## Breve descripción
 - El sistema permitira exportar un informe de asistencias solicitado
@@ -36,3 +36,6 @@ S-1 En caso de que en el paso 5 (El sistema no valiara la opcion elegida por el 
 2. El sistema mostrara si se desea volver a intentar exportar el informe 
 3. El profesor indicara su repuesta
 4. El caso de uso se reaunda en el paso 5
+
+## Excepciones 
+-En caso de que en el paso 3 del sub-flujo 1 el profesor indica que no desea volve a intentar, el sistema vuelve al UC-010
