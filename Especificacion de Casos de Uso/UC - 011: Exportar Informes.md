@@ -30,8 +30,8 @@
 5. El sistema valida que la opcion sea valida
 6. El sistema mostrara un mensaje de exito
 
-##Sub-Flujo de eventos 
-En caso de que en el paso 5 (El sistema no valiara la opcion elegida por el profesor)
+## Sub-Flujo 
+S-1 En caso de que en el paso 5 (El sistema no valiara la opcion elegida por el profesor)
 1. El sistema mostrara un mensaje de error
 2. El sistema mostrara si se desea volver a intentar exportar el informe 
 3. El profesor indicara su repuesta
