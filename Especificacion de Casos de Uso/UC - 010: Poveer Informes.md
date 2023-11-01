@@ -8,7 +8,7 @@
  * Profesor
    
 ## Tipo 
- * Opcional
+ * Terciario
 
 ## Partes interesadas e intereses:
 - El profesor desea obtener informes de un periodo de tiempo del grupo seleccionado
