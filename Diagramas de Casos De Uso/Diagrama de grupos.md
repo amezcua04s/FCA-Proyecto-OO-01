@@ -1,2 +1,4 @@
 # Caso de uso de los grupos
-![Casos de grupo](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/119078847/4a37db17-80f6-4996-aaa6-7446f4307d7d)
+![Casos de grupo](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/119078847/f73a0978-3ef5-482f-88d0-77172a0f7c01)
+
+
