@@ -2,7 +2,7 @@
 - UC - 011
   
 # Caso de uso
-- Exportar Informes
+- Exportar Informe
    
 ## Actores
 - Profesor
@@ -17,7 +17,7 @@
 - El sistema permitira exportar el informe de asistencias solicitado, el sistema podra exportar el informe en los formatos: .xslx / .xls / .xml / .xlw / .txt 
   
 ## Disparador
-- El profesor indicara la opcion de "Exportar Informe"
+- El profesor indicara la opcion de "Exportar Informe" desde "Proveer Informe"
   
 ## Relaciones
 - **Extiende**: Proveer Infomes
@@ -38,4 +38,4 @@ S-1 En caso de que en el paso 5 (El sistema no válida la opcion elegida por el 
   1. El caso de uso se reaunda en el paso 5
 
 ## Excepciones 
--En caso de que en el paso 3 del sub-flujo 1 el profesor indica que no desea volve a intentar, el sistema vuelve al UC-010
+-En caso de que en el paso 3 del sub-flujo 1 el profesor indica que no desea volver a intentar, el sistema vuelve al UC-010
