@@ -11,8 +11,8 @@
  * Secundario
    
 ## Partes interesadas e intereses:
-- El profesor desea registrar un nuevo alumno 
-- El alumno podrá utilizar una nueva tarjeta de MI para el registro de asistencia
+- El alumno desea modificar un dato erroneo en el sistema 
+- El profesor podrá llevar control preciso de la información
   
 ## Breve descripcion
 El profesor podra modificar un alumno que ya exista en el sistema, cambiando el nombre del alumno o la tarjeta MI asociada al alumno
