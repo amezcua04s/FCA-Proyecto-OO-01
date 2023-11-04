@@ -55,6 +55,12 @@ class Tarjeta {
   - modificarTarjeta(ITarjeta)
 }
 
+class PeriodoInforme{
+  + grupoInforme : Grupo
+  + periodo : Date
+  + exportarInforme (IPeriodo)
+}
+
 interface IGrupo extends IAlumno{
   # crearGrupo()
   # eliminarGrupo()
@@ -73,6 +79,11 @@ interface ITarjeta extends Alumno{
   # modificarTarjeta()
 }
 
+interface IPeriodo extends PeriodoInforme{
+  + exportarInforme()
+}
+
+
 Grupo ..|> IGrupo : realización
 Grupo "1"--"2..3" DiasDeClases
 Grupo "1"--"1..2" HoraDeClase
@@ -81,8 +92,9 @@ Alumno ..|> IAlumno
 Tarjeta ..|> ITarjeta
 Tarjeta "1" --* "1" Alumno
 Tarjeta ..> Alumno 
+PeriodoInforme <-- Grupo
 
-@enduml 
+@enduml  
 -->
-![Diagrama de clases](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/119078847/061736c2-9009-4d17-af38-cf470d887b28)
-
+# Diagrama de clases
+![Diagrama de clasesv2](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/119078847/3d3ab1c4-69be-4032-bb6d-b300f85df4c8)
