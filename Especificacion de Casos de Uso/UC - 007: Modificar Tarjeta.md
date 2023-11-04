@@ -5,7 +5,7 @@
 - Modificar Tarjeta
    
 ## Actores
-- Profesor
+- UC - 008: Modificar Alumno
     
 ## Tipo 
 - Secundario
