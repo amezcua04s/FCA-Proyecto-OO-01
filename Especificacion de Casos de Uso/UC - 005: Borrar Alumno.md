@@ -11,13 +11,13 @@
  * Secundario
    
 ## Interesados:
-- El profesor desea dar de baja un alumno
+- El profesor desea dar de baja un alumno y los registros asociados a este dentro del sistema
   
 ## Breve descripción
 El profesor podra dar de baja algún alumno que exista en el sistema y con ello todos los registros que se relacionen con este
 
 ## Trigger
-El profesor ingresara a la opcion de "Eliminar alumno"
+El profesor ingresara a la opcion de "Eliminar alumno" ó el UC - 006 llama a caso de uso
 
 ## Relaciones
 - **Incluye**: Eliminar Tarjeta
@@ -43,3 +43,7 @@ El profesor ingresara a la opcion de "Eliminar alumno"
   1. El caso de uso se reanuda en el paso 5 del flujo normal
 
 ## Alternate / Exceptional Flows
+- Si el caso de uso es llamado por el caso de uso baja grupo
+   1. El sistema selecciona a todos los alumnos del grupo
+   2. El sistema elimina todos los registros asociados a los alumnos
+   3. El caso de uso continua en el flujo del otro caso de uso
