@@ -11,7 +11,7 @@
 - Secundario
 
 ## Partes interesadas e intereses
-- El profesor desea llevar un control de los
+- El profesor desea llevar un control de las asistencias de sus alumnos 
 
 ## Breve descripción 
 El profesor registrara la asistencia de los alumnos del grupo en la hora indicada
