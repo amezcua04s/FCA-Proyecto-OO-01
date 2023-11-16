@@ -21,8 +21,8 @@
 
 ## Flujo normal de eventos
 1. El caso de uso RegistrarAlumno extiende a este
-2. El sistema pide acercar el NFC para asociar los datos
-3. El sistema verifica que no exista ya el NFC registrado en el sistema
+2. El sistema solicita acercar el NFC para asociar los datos
+3. El sistema verifica que no haya un registro previo de una tarjeta relacionada con un alumno
 4. El sistema muestra mensaje de exito
 5. El flujo continua en el paso correspondiente de caso de uso RegistrarAlumno
 
