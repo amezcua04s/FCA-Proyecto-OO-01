@@ -12,7 +12,7 @@
    
 ## Partes interesadas e intereses:
 - El profesor desea registrar un nuevo alumno 
-- El alumno podrá utilizar su tarjeda de MI para el registro de asistencia
+- El alumno podrá utilizar su tarjeda de "MI" para el registro de asistencia
   
 ## Breve descripcion
 - El profesor podra dar de alta un nuevo alumno en el sistema, asignandole un grupo y enlazando el registro del alumno en la tarjeta de MI (movilidad integrada)
