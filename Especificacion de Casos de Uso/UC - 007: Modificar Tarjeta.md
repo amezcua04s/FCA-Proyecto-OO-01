@@ -27,7 +27,7 @@
 ## Flujo normal de eventos
 1. El profesor selecciona el alumno al cual se le modificara la tarjeta MI
 2. El sistema pregunta si se desea continuar con la operación
-3. El sistema solicita leer la nueva tarjeta MI
+3. El sistema solicita leer la nueva tarjeta "MI"
 4. El sistema compara si esta tarjeta no existe en el sistema
 5. El sistema regresa un mensaje del resultado de la operación
    
