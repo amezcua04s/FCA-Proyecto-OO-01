@@ -2,7 +2,7 @@
 - UC - 002
   
 # Caso de uso
-* Registrar Tarjeta
+* Registrar Tarjeta "Mi"
    
 ## Actores
 * Profesor
@@ -11,10 +11,10 @@
 * Escencial
    
 ## Partes interesadas e intereses:
-- El profesor asignara la información de un alumno en la tarjeta de MI del propio alumno
+- El profesor asignara la información de un alumno en la tarjeta de "MI" del propio alumno
   
 ## Breve descripcion
-- Al momento de registrar un nuevo alumno el profesor le asignara su propio NFC desde la tarjeta MI del alumno
+- Al momento de registrar un nuevo alumno el profesor le asignara su propio NFC desde la tarjeta "MI" del alumno
   
 ## Disparador
 - Caso de uso registro de alumno
