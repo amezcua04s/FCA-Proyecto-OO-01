@@ -1,23 +1,26 @@
 # ID
- - UC - 010
-   
-# Caso de uso
- * Proveer Informes
+ - UC - 010 : Generar Informe
    
 ## Actores
  * Profesor
    
 ## Tipo 
- * Terciario
+ * Secundario
 
 ## Partes interesadas e intereses:
 - El profesor desea obtener informes de un periodo de tiempo del grupo seleccionado
 
 ## Breve descripción
-El profesor podra obtener informes de asistencia de uno de sus grupos de un cierto periodo de tiempo
+El profesor podrá obtener informes de asistencia de uno de sus grupos de un cierto periodo de tiempo
+
+## Pre condiciones
+- El profesor debe de tener al menos un grupo registrado en el sistema, y el registro de un día de asistencia de ese grupo
 
 ## Disparador
-El profesor ingresara a la opcion de "Informes"
+El profesor ingresará a la opcion de "Informes"
+
+## Relaciones
+- **Extiende**: UC - 011: Exportar Informe
 
 ## Flujo normal de eventos
 1. El profesor ingresa al apartado de Informes 
@@ -27,12 +30,12 @@ El profesor ingresara a la opcion de "Informes"
 5. El sistema muestra el informe con toda la informacion en el periodo solicitado por el profesor 
 
 ## Sub-flujo
-S-2 En el paso 3 (El sistema no valida el periodo que el profesor selecciono)
+S-2 En el paso 3 (El sistema no válida el periodo que el profesor selecciono)
  1. El sistema mostrara un mensaje de error
  2. El sistema mostrara al profesor un mensaje para que vuelva a indicar el periodo
  3. El flujo del caso de uso continua el flujo normal en el paso 3
  
-S-1 En el paso 3 (El sistema no valida el grupo que el profesor ingreso)
+S-1 En el paso 3 (El sistema no válida el grupo que el profesor ingreso)
  1. El sistema muestra un mensaje de error
  2. El sistema muestra los grupos que tiene registrados
  3. El sistema pide que ingrese uno de los grupos

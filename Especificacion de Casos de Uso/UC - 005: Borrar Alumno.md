@@ -1,8 +1,5 @@
 # ID
-- UC - 005
-  
-# Caso de uso
- * Borrar alumno
+- UC - 005 : Borrar alumno
    
 ## Actores
  * Profesor
@@ -16,18 +13,19 @@
 ## Breve descripción
 El profesor podra dar de baja algún alumno que exista en el sistema y con ello todos los registros que se relacionen con este
 
-## Trigger
-El profesor ingresara a la opcion de "Eliminar alumno" ó el UC - 006 llama a caso de uso
+## Disparador
+- El profesor ingresara a la opcion de "Eliminar alumno" 
+- EL UC - 006 llama a caso de uso
 
 ## Relaciones
-- **Incluye**: Eliminar Tarjeta
+- **Incluye**: UC - 006: Eliminar Tarjeta
 
 ## Flujo normal de eventos
 1. El profesor ingresa al apartado de eliminar alumno
 2. El profesor indica el alumno que desea eliminar
 3. El sistema muestra los datos del alumno
 4. El sistema pregunta si quiere continuar la operacion
-6. El sistema muestra el mensaje del resultado de la operación
+5. El sistema muestra el mensaje del resultado de la operación
    
 ## Subflujos
 

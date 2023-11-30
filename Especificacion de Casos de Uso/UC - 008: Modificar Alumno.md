@@ -1,8 +1,5 @@
 # ID
-- UC - 008
-  
-# Caso de uso
- * Modificar alumno
+- UC - 008 : Modificar alumno
    
 ## Actores
  * Profesor
@@ -15,10 +12,10 @@
 - El profesor podrá llevar control preciso de la información
   
 ## Breve descripcion
-El profesor podra modificar un alumno que ya exista en el sistema, cambiando el nombre del alumno o la tarjeta MI asociada al alumno
+El profesor podrá modificar un alumno que ya exista en el sistema, cambiando el nombre del alumno o el id de la tarjeta "MI" asociada al alumno
 
 ## Disparador
-El profesor ingresara a la opcion de "Modificar alumno"
+El profesor ingresará a la opcion de "Modificar alumno"
 
 ## Relaciones
 - **Extiende**: Modificar Tarjeta
@@ -27,7 +24,7 @@ El profesor ingresara a la opcion de "Modificar alumno"
 1. El profesor ingresa al apartado de modificar alumno
 2. El profesor indica el alumno que desea modificar
 3. El sistema muestra los datos del alumno
-4. El sistema pregunta que se modificara (Nombre o correo o tarjeta)
+4. El sistema pregunta que dato del alumno se modificara (Nombre o correo o tarjeta)
 5. El sistema muestra los nuevos datos y pide que se confirme
 6. El sistema muestra mensaje del resultado de la operacion
 
@@ -35,7 +32,7 @@ El profesor ingresara a la opcion de "Modificar alumno"
 ## Subflujos
 
 S-1 En el paso 4 (En caso de querer modificar la tarjeta del alumno)
-  1. Si el profesor selecciona que se modificara la tarjeta se extiende el caso de uso a "ModificarTarjeta"
+  1. Si el profesor selecciona que se modificará la tarjeta se extiende el caso de uso a "ModificarTarjeta"
   2. El caso de uso reanuda el flujo en el paso 6
 
 S-2 En el paso 4 (En caso de querer modificar el nombre)

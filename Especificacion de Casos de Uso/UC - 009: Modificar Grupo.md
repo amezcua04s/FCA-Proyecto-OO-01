@@ -1,8 +1,5 @@
 # ID
-- UC - 009
-  
-# Caso de uso
- * Modificar grupo
+- UC - 009 : Modificar grupo
    
 ## Actores
  * Profesor
@@ -14,10 +11,13 @@
 - El profesor desea cambiar la información de un grupo 
   
 ## Breve descripción
-El profesor cambiara algún dato o datos de alguno de sus grupos
+El profesor cambiará algún dato o datos de algún grupo registrado en el sistema
+
+## Pre condiciones
+- El profesor debe tener en el sistema al menos un grupo registrado, para poder modificar la información de este
 
 ## Disparador
-El profesor ingresara a la opcion de "Modificar grupo" en el grupo correspondiente
+El profesor ingresará a la opcion de "Modificar grupo" en el grupo correspondiente
 
 ## Relaciones
 - **Extiende**: Eliminar grupo

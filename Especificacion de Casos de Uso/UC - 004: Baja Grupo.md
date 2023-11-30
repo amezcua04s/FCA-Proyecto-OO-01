@@ -1,8 +1,5 @@
 # ID: 
-- UC - 006
-  
-# Caso de uso        
- * Baja grupo
+- UC - 006 : Baja grupo
    
 ## Actores
   - Profesor

@@ -1,8 +1,5 @@
 # ID
- - UC - 001
-   
-# Caso de uso
- * Registrar grupo
+ - UC - 001: Registrar grupo
    
 ## Actores
  * Profesor
@@ -14,7 +11,7 @@
 - El profesor desea registrar un nuevo grupo 
 
 ## Breve descripción
-El profesor podra dar de alta un nuevo grupo en el sistema, con la posibilidad de asignarle alumnos previemante registrados
+El profesor podra dar de alta un nuevo grupo en el sistema, con la posibilidad de asignarle alumnos previemante registrados, así como asignarle un horario al grupo
 
 ## Disparador
 El profesor ingresara a la opcion de "Registrar nuevo grupo"
@@ -42,7 +39,7 @@ S-1 En el paso 6 (En caso de que se encuentre otro registro)
 
 S-2 En el paso 7 (En caso de no disponibilidad de horario)
  1. Se muestra mensaje de error y se muestra la información del grupo ya existente
- 1. El sistema recomienda los horarios disponibles del profesor para el registro del nuevo grupo
+ 1. El sistema le muestra al usuario los horarios que ya ha utilizado
  1. Se da la posibilidad de modificar el horario del grupo
  1. Se reanuda en el paso 5
 

@@ -1,29 +1,25 @@
 # ID
-- UC - 004
-  
-# Caso de uso
-- Eliminar Tarjeta
+- UC - 004 : Eliminar Tarjeta
    
 ## Actores
-- UC - 005
-- UC - 007
+- UC - 005: Borrar Alumno
+- UC - 007: Modificar Tarjeta
     
 ## Tipo 
-- Terciario
+- Secundario
    
 ## Intereses:
-- El profesor eliminara todo el registro de un alumno o modificara el valor de la tarjeta
+- El profesor eliminará todo el registro de un alumno o modificara el valor de la tarjeta "MI" 
   
 ## Breve descripción
-- El sistema borrara de forma definitiva el valor de la tarjeta, por consecuencia del cambio de valor de esta o por baja real del alumno del sistema
+- El sistema borrará de forma definitiva el valor de la tarjeta, como consecuencia del cambio de valor del registro o por baja real del alumno del sistema
 
 ## Disparador
 - El profesor decide eliminar de forma total a un alumno
 - El profesor modifica la información de la tarjeta del alumno
 
 ## Relaciones
-- **Incluye**: ModificarTarjeta
-- **Extiende**: EliminarAlumno
+- **Incluye**: UC - 013: Leer Tarjeta "MI"
 
 ## Flujo normal de eventos
 1. El sistema llama al caso de uso

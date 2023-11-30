@@ -1,8 +1,5 @@
 # ID
-- UC - 007
-  
-# Caso de uso
-- Modificar Tarjeta
+- UC - 007 : Modificar Tarjeta
    
 ## Actores
 - UC - 008: Modificar Alumno
@@ -18,7 +15,7 @@
 - El profesor cambiara el valor de la tarjeta que esta asociado a algún alumno
 
 ## Disparador
-- El profesor selecciona "Modificar tarjeta" en el caso de uso de modificar alumno
+- El profesor selecciona "Modificar tarjeta" en el apartado de modificar alumno
 
 ## Relaciones
 - **Inlcuye**: Borrar Tarjeta

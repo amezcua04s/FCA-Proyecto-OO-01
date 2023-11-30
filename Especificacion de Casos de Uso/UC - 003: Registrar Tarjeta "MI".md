@@ -1,8 +1,5 @@
 # ID
-- UC - 002
-  
-# Caso de uso
-* Registrar Tarjeta "Mi"
+- UC - 003 : Registrar Tarjeta "MI"
    
 ## Actores
 * Profesor
@@ -19,9 +16,13 @@
 ## Disparador
 - Caso de uso registro de alumno
 
+## Relaciones
+- **Inclusión**: UC - 013: Leer Tarjeta
+
 ## Flujo normal de eventos
 1. El caso de uso RegistrarAlumno extiende a este
 2. El sistema solicita acercar el NFC para asociar los datos
+3. El flujo continua en el caso de uso Leer Tarjeta
 3. El sistema verifica que no haya un registro previo de una tarjeta relacionada con un alumno
 4. El sistema muestra mensaje de exito
 5. El flujo continua en el paso correspondiente de caso de uso RegistrarAlumno
@@ -29,7 +30,6 @@
    
 ## Subflujos
 - S-1 En el paso 3
-    1. El NFC que se desea registrar esta asociado a otro alumno
+    1. El ID del NFC que se desea registrar esta asociado a otro alumno
     2. El sistema muestra la información del alumno que tiene asociado ese NFC
     3. El caso de uso termina
-

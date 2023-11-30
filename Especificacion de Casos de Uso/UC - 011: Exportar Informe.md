@@ -1,8 +1,5 @@
 # ID
-- UC - 011
-  
-# Caso de uso
-- Exportar Informe
+- UC - 011 : Exportar Informe
    
 ## Actores
 - Profesor
@@ -14,10 +11,13 @@
 - El profesor desea exportar el informe solicitado previamente 
   
 ## Breve descripción
-- El sistema permitira exportar el informe de asistencias solicitado, el sistema podra exportar el informe en los formatos: .xslx / .xls / .xml / .xlw / .txt 
+- El sistema permitirá exportar el informe de asistencias solicitado, el sistema podra exportar el informe en los formatos: .xslx / .xls / .xml / .xlw / .txt 
   
+## Pre condiciones
+- El profesor debe de tener un informe generado
+
 ## Disparador
-- El profesor indicara la opcion de "Exportar Informe" desde "Proveer Informe"
+- El profesor indicara la opción de "Exportar Informe" desde "Proveer Informe"
   
 ## Relaciones
 - **Extiende**: Proveer Infomes

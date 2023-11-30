@@ -1,8 +1,5 @@
 # ID 
-- UC - 012
-
-## Caso de Uso
-- Registro Asistencia
+- UC - 012 : Registro Asistencia
   
 ## Actores
 - Profesor
