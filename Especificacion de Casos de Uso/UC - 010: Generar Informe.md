@@ -8,22 +8,20 @@
  * Secundario
 
 ## Partes interesadas e intereses:
-- El profesor desea obtener informes de un periodo de tiempo del grupo seleccionado
+- El profesor podrá obtener informes de asistencia de los alumnos
 
 ## Breve descripción
-El profesor podrá obtener informes de asistencia de los alumnos
+El sistema proveerña los informes del grupo seleccionado hasta el momento de la generación de este (asistencias por alumno y la fecha de la asistencia)
 
 ## Pre condiciones
 - El profesor debe de tener al menos un grupo registrado en el sistema
 
 ## Disparador
-El profesor ingresará a la opcion de "Informes"
+El profesor ingresará a la opcion de "Informe" dentro del grupo sobre el cuál exportara el informe
 
 ## Flujo normal de eventos
 1. El profesor ingresa al apartado de Informes 
-2. El sistema le pide al profesor ingresar el grupo del cuál desea obtener el informe
-3. El sistema busca al grupo 
-4. El sistema muestra la información del grupo en forma de tabla con todos los registros encontrados hasta la fecha de consulta
+2. El sistema muestra la información del grupo en forma de tabla con todos los registros encontrados hasta la fecha de consulta
 
 | Grupo  | Nombre del alumno  | 1/12/2023 | 6/12/2023 | 8/12/2023 | Asistencias (%) | Faltas (%) | 
 |:------: |:-------------------:| :----------:| :----------:| :----------:| :----------:| :----------:|
@@ -31,26 +29,20 @@ El profesor ingresará a la opcion de "Informes"
 | 1391   |  Julian Gomez| &#10011;  (Justificada)| &#10003;  (Asistencia)| &#10005; (Falta)  |1 (50%)      | 1 (50%)      | 
 | 1391   | Ada Lovelace         | &#10003;  (Asistencia)  | &#10011;  (Justificada)| &#10011;  (Justificada)| 1 (100%)  | 0 (0%) |
 
-4. El profesor ingresara la opcion "Continuar" 
+3. El profesor ingresara la opcion "Continuar" 
+4. El sistema preguntara si desea exportar el archivo en formato "PDF" o ".csv"
 5. El sistema solicita al profesor guardar el archivo de forma local, y le de un nombre al archivo
-6. El sistema preguntara si desea exportar el archivo en formato "PDF" o ".csv"
-7. Una vez seleccionado el formato, el sistema crea un archivo y lo exporta al almacenamiento local del celular del profesor
-
-## Sub-flujo 
-S-1 En el paso 3 (En caos de que el sistema no encuentre el grupo ingrsado)
- 1. El sistema muestra un mensaje de error
- 2. El sistema muestra los números de los grupos que tiene registrados
- 3. El sistema pide que ingrese uno de los grupos
- 4. El flujo del caso de uso continua el flujo normal en el paso 3
+6. Una vez seleccionado el formato, el sistema crea un archivo y lo exporta al almacenamiento local del celular del profesor
+7. El sistema muestra un mensaje de exito de la operación
 
  ## Excepciones
  - En caso de que el profesor decida exportar en formato de pdf, el sistema creara los informes de máximo 5 días de largo, para poder llevar un orden visual
  ### La primer página del documento se vería de la siguiente manera
- | Grupo  | Nombre del alumno  | 1/12/2023 | 6/12/2023 | 8/12/2023 | Asistencias (%) | Faltas (%) | 
-|:------: |:-------------------:| :----------:| :----------:| :----------:| :----------:| :----------:|
-| 1391   | Pepito perez  | &#10003;  (Asistencia)| &#10003;  (Asistencia)| &#10003;  (Asistencia)|  3 (100%)   |  0 (0%)   | 
-| 1391   |  Julian Gomez| &#10011;  (Justificada)| &#10003;  (Asistencia)| &#10005; (Falta)  |1 (50%)      | 1 (50%)      | 
-| 1391   | Ada Lovelace         | &#10003;  (Asistencia)  | &#10011;  (Justificada)| &#10011;  (Justificada)| 1 (100%)  | 0 (0%) |
+| Grupo  | Nombre del alumno  | 1/12/2023 | 6/12/2023 | 8/12/2023| 8/12/2023 | 8/12/2023| Asistencias (%) | Faltas (%) | 
+|:------: |:-------------------:| :----------:| :----------:| :----------:| :----------:| :----------:| :----------:| :----------:|
+| 1391   | Pepito perez  | &#10003;  (Asistencia)| &#10003;  (Asistencia)| &#10003;  (Asistencia) | &#10003;  (Asistencia)| &#10005; (Falta)|  4 (80%)   |  1 (25%)   | 
+| 1391   |  Julian Gomez| &#10011;  (Justificada)| &#10003;  (Asistencia)| &#10005; (Falta) | &#10003;  (Asistencia) | &#10005; (Falta)  |2 (50%)      | 2 (50%)      | 
+| 1391   | Ada Lovelace         | &#10003;  (Asistencia)  | &#10011;  (Justificada)| &#10011;  (Justificada)| &#10003;  (Asistencia) | &#10005; (Falta) |  2 (100%)  | 1 (0%) |
  ### Y la segunda página del documento se vería de la misma manera: 
 | Grupo  | Nombre del alumno  | 1/12/2023 | 6/12/2023 | 8/12/2023| 8/12/2023 | 8/12/2023| Asistencias (%) | Faltas (%) | 
 |:------: |:-------------------:| :----------:| :----------:| :----------:| :----------:| :----------:| :----------:| :----------:|
