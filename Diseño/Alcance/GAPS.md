@@ -1,0 +1,11 @@
+# GAPS
+### Limitantes que nos encontramos a la hora de crear el aplicativo
+- A la hora de realizar el aplicativo, con las limitantes que nos encontramos fueron más que nada causadas por nuestra falta de conocimiento/experiencia en temas relacionados con el desarrollo de sistemas.
+
+I. **La aplicación no tendrá conexión con una base de datos en la nube**, todo lo almacenado será de forma loca por lo que si el teléfono donde se guarda la información de todo el sistema sufre de algún percance, la información no podrá ser recuperada de ninguna forma.
+
+II. **La aplicación no tendrá horarios apartados**, por lo que no se podrá apartar un horario para un grupo, el profesor tendrá que ingresar de forma manual cuál es el grupo actual con el cuál desea interactuar.
+
+III. **La aplicación no tiene credenciales**, de la misma forma que no tiene conexión con una base de datos en la nube, no tiene una forma de poder compartir información de forma remota, no tiene credenciales, pues la información sera solamente almacenada en un dispositivo móvil, no es necesario tener de credenciales (por ahora).
+
+IV. **La caplicación solo puede exportar en 2 formatos**, la aplicación solamente podrá exportar informes como tipo ".csv"
