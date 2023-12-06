@@ -34,6 +34,7 @@ El profesor ingresará a la opcion de "Informes"
 4. El profesor ingresara la opcion "Continuar" 
 5. El sistema solicita al profesor guardar el archivo de forma local, y le de un nombre al archivo
 6. El sistema preguntara si desea exportar el archivo en formato "PDF" o ".csv"
+7. Una vez seleccionado el formato, el sistema crea un archivo y lo exporta al almacenamiento local del celular del profesor
 
 ## Sub-flujo 
 S-1 En el paso 3 (En caos de que el sistema no encuentre el grupo ingrsado)
