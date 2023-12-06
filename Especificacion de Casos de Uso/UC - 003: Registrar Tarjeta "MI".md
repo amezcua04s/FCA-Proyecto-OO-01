@@ -1,5 +1,5 @@
 # ID
-- UC - 003 : Registrar Tarjeta "MI"
+- UC - 003: Registrar Tarjeta "MI"
    
 ## Actores
 * Profesor
@@ -10,26 +10,25 @@
 ## Partes interesadas e intereses:
 - El profesor asignara la información de un alumno en la tarjeta de "MI" del propio alumno
   
-## Breve descripcion
+## Breve descripción
 - Al momento de registrar un nuevo alumno el profesor le asignara su propio NFC desde la tarjeta "MI" del alumno
+
+## Pre condiciones
+- El alumno debe de tener una tarjeta de "MI" propia
   
 ## Disparador
-- Caso de uso registro de alumno
-
-## Relaciones
-- **Inclusión**: UC - 013: Leer Tarjeta
+- Caso de uso "Registrar Alumno"
 
 ## Flujo normal de eventos
-1. El caso de uso RegistrarAlumno extiende a este
+1. El caso de uso "Registrar Alumno "extiende a este
 2. El sistema solicita acercar el NFC para asociar los datos
-3. El flujo continua en el caso de uso Leer Tarjeta
-3. El sistema verifica que no haya un registro previo de una tarjeta relacionada con un alumno
-4. El sistema muestra mensaje de exito
-5. El flujo continua en el paso correspondiente de caso de uso RegistrarAlumno
+3. El sistema verifica que no exista la tarjeta en el sistema
+4. El sistema muestra mensaje de éxito
+5. El flujo continua en el paso correspondiente de caso de uso "Registrar Alumno"
 
    
 ## Subflujos
-- S-1 En el paso 3
-    1. El ID del NFC que se desea registrar esta asociado a otro alumno
+- S-1 En el paso 3 (En caso de que se encuentre la tarjeta registrada en el sistema)
+    1. El sistema muestra el error en forma de "Pop-up"
     2. El sistema muestra la información del alumno que tiene asociado ese NFC
     3. El caso de uso termina
