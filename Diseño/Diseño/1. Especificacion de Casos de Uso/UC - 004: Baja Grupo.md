@@ -11,7 +11,7 @@
 - **Incluye**: UC - 005: Eliminar Alumno
 
 ## Partes interesadas e intereses:
-- El profesor eliminara de forma definitiva todos los datos de un grupo
+- El profesor eliminará de forma definitiva todos los datos de un grupo
   
 ## Breve descripción
 - El profesor elimina todos los registros que esten asociados a un grupo, así como la información de los alumnos que esten asociados al grupo
