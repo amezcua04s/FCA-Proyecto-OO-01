@@ -24,16 +24,16 @@ El profesor debe de tener registrado al menos a un alumno dentro del sistema
 - **Incluye**: UC - 006: Eliminar Tarjeta
 
 ## Flujo normal de eventos
-1. El usuario ingresa al apartado de eliminar alumno
-2. El usuario indica el alumno que desea eliminar
+1. El profesor ingresa al apartado de eliminar alumno
+2. El profesor indica el alumno que desea eliminar
 3. El sistema muestra los datos del alumno
-4. El sistema pregunta si quiere continuar la operacion
+4. El sistema pregunta si quiere continuar la operación
 5. El sistema muestra el mensaje del resultado de la operación
    
 ## Subflujos
 - S-1 En el paso 4 (Caso de aceptar)
   1. El profesor decide continuar con la operación
-  2. El sistema utiliza el caso de uso de eliminar tarjeta
+  2. El sistema utiliza el caso de uso UC-006: Eliminar Tarjeta
   3. Elimina todos los elementos que conformen al alumno en el sistema
   4. El caso de uso se reanuda en el paso 5 del flujo normal
 
