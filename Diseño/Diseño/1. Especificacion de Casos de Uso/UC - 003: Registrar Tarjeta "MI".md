@@ -8,7 +8,7 @@
 * Escencial
    
 ## Partes interesadas e intereses:
-- El profesor asignara la información de un alumno en la tarjeta de "MI" del propio alumno
+- El profesor asignará la información de un alumno en la tarjeta de "MI" del propio alumno
   
 ## Breve descripción
 - Al momento de registrar un nuevo alumno el profesor le asignara su propio NFC desde la tarjeta "MI" del alumno
