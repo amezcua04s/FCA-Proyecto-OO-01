@@ -11,10 +11,10 @@
 - El profesor desea registrar un nuevo grupo 
 
 ## Breve descripción
-El profesor podra dar de alta un nuevo grupo en el sistema, con la posibilidad de asignarle alumnos previemante registrados, así como asignarle un horario al grupo
+El profesor podrá dar de alta un nuevo grupo en el sistema, con la posibilidad de asignarle alumnos previemante registrados, así como asignarle un horario al grupo
 
 ## Disparador
-El profesor ingresara a la opcion de "Registrar nuevo grupo"
+El profesor ingresará a la opcion de "Registrar nuevo grupo"
 
 ## Flujo normal de eventos
 1. El profesor ingresa al apartado de registro de grupo
@@ -23,7 +23,7 @@ El profesor ingresara a la opcion de "Registrar nuevo grupo"
 4. El profesor ingresa el semestre al que pertenece el grupo
 5. El sistema verifica que no exista otro registro con ese número de grupo
 6. Se guarda en el sistema la información
-7. Se muestran los datos del grupo
+7. Se muestran los datos(Nombre de la materia, número de grupo, semestre al que pertenece) del grupo
 8. El sistema muestra mensaje del resultado de la operación
 
 ## Sub-flujo
