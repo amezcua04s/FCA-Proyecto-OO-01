@@ -18,13 +18,13 @@
 - El alumno debe de tener una tarjeta de "MI" (Movilidad Integrada) propia
 
 ## Disparador
-- El profesor ingresara a la opción de "Registrar nuevo alumno"
+- El profesor ingresará a la opción de "Registrar nuevo alumno"
 
 ## Relaciones
 - **Inclusión**: UC - 003: Registro Tarjeta "MI"
 
 ## Flujo normal de eventos
-1. El profesor selecciona el grupo al que registrara el alumno
+1. El profesor selecciona el grupo al que registrará el alumno
 2. El profesor ingresa al apartado de "Registrar nuevo alumno"
 3. El profesor ingresa el nombre, número de cuenta y NFC de la tarjeta de "MI" (Movilidad Integrada) del alumno que se desea agregar
 4. El sistema verifica que no exista un registro previo del alumno que se desea agregar
