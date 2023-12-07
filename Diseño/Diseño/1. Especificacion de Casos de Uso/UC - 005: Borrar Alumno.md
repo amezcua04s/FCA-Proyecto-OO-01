@@ -26,7 +26,7 @@ El profesor debe de tener registrado al menos a un alumno dentro del sistema
 ## Flujo normal de eventos
 1. El profesor ingresa al apartado de eliminar alumno
 2. El profesor indica el alumno que desea eliminar
-3. El sistema muestra los datos del alumno
+3. El sistema muestra los datos(Nombre, Número de cuenta) del alumno
 4. El sistema pregunta si quiere continuar la operación
 5. El sistema muestra el mensaje del resultado de la operación
    
