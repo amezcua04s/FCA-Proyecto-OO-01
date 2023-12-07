@@ -7,6 +7,11 @@
 |"Grupo"|Conjunto de personas, animales o cosas que están reunidos o tienen alguna característica en común.|
 |"Alumno"|Persona que recibe enseñanzas de un maestro y posee un conjunto de saberes.|
 |"Profesor"|Persona que ensea una catedra o que está asignado a un departameto.|
+|"Materia"|Programa que debe ser enseñado por el profesor dentro de un periodo de tiempo y formasn parte de un plan de estudios.|
+|"Sistema"|Conjunto de elementos interrelacionados entre si para lograr un mismo objetivo.|
+|"Tarjeta MI"|Tarjeta de Movilidad Intergrada. Es un medio de pago electronico por medio de un identificador.|
+|"NFC"|Near-Field communication o comunicación de campo cercano es una tecnología de comunicación inalámbrica.|
+|"Datos"|Información concreta sobre hechos, elementos, personas etc.|
 
 
 [UC-010:csv]: /Diseño/Diseño/1.%20Especificacion%20de%20Casos%20de%20Uso/UC%20-%20010:%20Generar%20Informe.md**".csv"**
