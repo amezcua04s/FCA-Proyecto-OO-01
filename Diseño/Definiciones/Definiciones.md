@@ -1,6 +1,6 @@
 # Definiciones de palabras utilizadas en el repositorio
 
-|Palabra|Definición|Lugares|
+|Palabra|Definición|Referencias|
 |:------:|:--------:|:-----:|
 |"FCA"|"FCA" representa la abreviación de "Facultad de Contaduría y Administración", es un centro educativo de la UNAM|[FCA-UNAM]|
 |"Base de datos"|Una base de datos es una herramienta para recopilar y organizar información. Las bases de datos pueden almacenar información sobre personas, productos, pedidos u otras cosas.|[Base de Datos]|
