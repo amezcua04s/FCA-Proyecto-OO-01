@@ -28,3 +28,6 @@ fc -> UC10
 fc .-> UC11
 
 @enduml -->
+
+![image](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/147119596/7352952c-4380-4b3d-aed4-0fe71c01d1d6)
+
