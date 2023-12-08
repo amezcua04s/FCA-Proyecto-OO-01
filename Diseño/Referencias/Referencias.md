@@ -21,4 +21,4 @@
 >Qué es Android | Android. (n.d.). Android. https://www.android.com/intl/es-419_mx/what-is-android/
 
 #### VII. Definición de "MVC"
->Qué es MVC | García, M. (2017, 5 octubre). MVC (Modelo-Vista-Controlador): ¿Qué es y para qué sirve? https://codingornot.com/mvc-modelo-vista-controlador-que-es-y-para-que-sirve
+>Qué es MVC | García, M. (2017, 5 octubre).MVC (Modelo-Vista-Controlador): ¿Qué es y para qué sirve? https://codingornot.com/mvc-modelo-vista-controlador-que-es-y-para-que-sirve
