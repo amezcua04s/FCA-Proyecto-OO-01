@@ -1,2 +1,2 @@
 # Registrar Alumno
-https://cdn-0.plantuml.com/plantuml/png/POzFIyGm4CNlxrFCMLWHn8iiPPVruaKMGIyYPPeCsqAQI2P5KFpk9hO1Ttjyx_VU_DbfufYcqK4DEw7Rknlw76pg0MIKX9xbD6YA7DkzcqOVw7i1XhPRquV1IDCiLlVVmjlLEsqs3Jrm2je--bCKPHkKxkauM9bzEahKuDc9OXKiRPFZh-m6o_GKhW-J-CGm1MKzotRcDbpwubyqu5p-9V9fk6pFfClhwikqREiAMKHbbdDmR-IZyjeA1_P6N9bN9fcUlnYhRZrYNQe4Fm10160dtawZ-mK0![image](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/125850397/fe2e08df-ee00-4472-905a-bcc4ed3f6ef8)
+![image](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/125850397/66707639-2d27-4f82-b7af-c01972b36d63)
