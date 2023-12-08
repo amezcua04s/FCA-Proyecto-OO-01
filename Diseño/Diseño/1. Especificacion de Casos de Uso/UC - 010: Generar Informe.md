@@ -23,20 +23,6 @@ El profesor ingresará a la opcion de "Informe" dentro del grupo sobre el cuál 
 1. El profesor ingresa al apartado de Informes 
 2. El sistema muestra la información del grupo en forma de tabla con todos los registros encontrados hasta la fecha de consulta
 
-| Grupo  | Nombre del alumno  | 1/12/2023 | 6/12/2023 | 8/12/2023 | Asistencias (%) | Faltas (%) | 
-|:------: |:-------------------:| :----------:| :----------:| :----------:| :----------:| :----------:|
-| 1391   | Pepito perez  | &#10003;  (Asistencia)| &#10003;  (Asistencia)| &#10003;  (Asistencia)|  3 (100%)   |  0 (0%)   | 
-| 1391   |  Julian Gomez| &#10011;  (Justificada)| &#10003;  (Asistencia)| &#10005; (Falta)  |1 (50%)      | 1 (50%)      | 
-| 1391   | Ada Lovelace         | &#10003;  (Asistencia)  | &#10011;  (Justificada)| &#10011;  (Justificada)| 1 (100%)  | 0 (0%) |
-
-3. El profesor ingresara la opcion "Continuar" 
-4. El sistema preguntara si desea exportar el archivo en formato "PDF" o ".csv"
-5. El sistema solicita al profesor guardar el archivo de forma local, y le de un nombre al archivo
-6. Una vez seleccionado el formato, el sistema crea un archivo y lo exporta al almacenamiento local del celular del profesor
-7. El sistema muestra un mensaje de exito de la operación
-
- ## Excepciones
- - En caso de que el profesor decida exportar en formato de pdf, el sistema creara los informes de máximo 5 días de largo, para poder llevar un orden visual
  ### La primer página del documento se vería de la siguiente manera
 | Grupo  | Nombre del alumno  | 1/12/2023 | 6/12/2023 | 8/12/2023| 8/12/2023 | 8/12/2023| Asistencias (%) | Faltas (%) | 
 |:------: |:-------------------:| :----------:| :----------:| :----------:| :----------:| :----------:| :----------:| :----------:|
@@ -49,3 +35,8 @@ El profesor ingresará a la opcion de "Informe" dentro del grupo sobre el cuál 
 | 1391   | Pepito perez  | &#10011;  (Justificada)| &#10005; (Falta)| &#10003;  (Asistencia) | &#10005; (Falta)| &#10003;  (Asistencia)|  6 (67%)   |  3 (33%)   | 
 | 1391   |  Julian Gomez|  &#10003;  (Asistencia)| &#10003;  (Asistencia)| &#10003;  (Asistencia) | &#10011;  (Justificada) | &#10003;  (Asistencia)  |6 (75%)      | 2 (25%)      | 
 | 1391   | Ada Lovelace         | &#10011;  (Justificada)  | &#10005; (Falta)| &#10003;  (Asistencia)| &#10003;  (Asistencia) | &#10005; &#10003;  (Asistencia) |  5 (71%)  | 2 (29%) |
+
+3. El profesor ingresara la opcion "Continuar" 
+5. El sistema solicita al profesor guardar el archivo de forma local, y le de un nombre al archivo
+6. Una vez seleccionado el formato, el sistema crea un archivo con formato "PDF" y lo exporta al almacenamiento local del celular del profesor
+7. El sistema muestra un mensaje de exito de la operación

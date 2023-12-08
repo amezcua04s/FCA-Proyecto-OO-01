@@ -6,7 +6,10 @@
     
 ## Tipo 
  * Secundario
-   
+
+## Relaciones
+**Extiende:** UC - 007: Modificar Tarjeta
+
 ## Partes interesadas e intereses:
 - El alumno desea modificar un dato erroneo en el sistema 
 - El profesor podrá llevar control preciso de la información

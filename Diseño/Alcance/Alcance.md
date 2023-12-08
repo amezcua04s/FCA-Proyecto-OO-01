@@ -1,4 +1,3 @@
-El alcance de éste análisis es mostrar una perspectiva general de todos los procesos, elementos y/o componenetes que puede necesitar un 
-sistema de asistencia para profesores. 
-De igual manera mostrar un enfoque específico en las funcionalidades que tendrá dicho sistema para establecer un punto de vista bastante claro 
-para los desarrolladores e implementadores del sistema.
+# Alcance del aplicativo
+
+El alcance de la aplicación, o por lo menos hasta el enfoque con el que se ha trabajado hasta este momento es llegar a toda la plantilla de profesores de la FCA-UNAM que cuenten con un dispositivo con OS de Android, que tenga una versión mínima de Android 11 

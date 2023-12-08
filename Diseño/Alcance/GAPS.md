@@ -10,3 +10,6 @@ Por lo que no se podrá apartar un horario para un grupo, el profesor tendrá qu
 
 #### III. **La aplicación no tiene credenciales**
 De la misma forma que no tiene conexión con una base de datos en la nube, no tiene una forma de poder compartir información de forma remota, no tiene credenciales, pues la información sera solamente almacenada en un dispositivo móvil, no es necesario tener de credenciales (por ahora).
+
+#### IV **La aplicación solo podrá exportar arvhivos en formato PDF**
+El aplicativo solo tendrá la capacidad de generar archivos con extensión PDF a la hora de hacer informes, se espera que las formas de exportación se amplien en la Versión 2.0 del aplicativo
