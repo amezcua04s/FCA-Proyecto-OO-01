@@ -1,48 +1,22 @@
 <!-- @startuml
 !theme vibrant
 
+!theme vibrant
+
 skin rose
 
 title Clases - Sistema de toma de asistencia mediante tarjeta MI
 
-class IdUnico{
-  + identificador(codigoEntrada: String) : String
-}
-
-class Grupo extends IdUnico{
-  # identificadorGrupo : IdUnico
+class Grupo{
+  # identificadorGrupo : String
   # materia : String
   # alumnos : List<Alumnos>
-  # horasDeClase : HoraDeClase
-  # diasDeClase : DiasDeClases
-  - crearGrupo(IGrupo)
-  - eliminarGrupo(IGrupo)
-  - modificarGrupo (IGrupo)
 }
 
-enum HoraDeClase {
-  · 7:00 
-  · 9:00
-  · 11:00
-  · 13:00
-  · 16:00
-  · 18:00
-  · 20:00
-}
-
-enum DiasDeClases{
-  · Lunes
-  · Martes
-  · Miércoles
-  · Jueves
-  · Viernes
-  · Sabádo
-}
-
-class Alumno  extends IdUnico{
+class Alumno{
   + nombre : String
   + tarjetaNFC : String
-  + numeroCuenta : IdUnico
+  + numeroCuenta : String
   - crearAlumno(IAlumno)
   - modificarAlumno(IAlumno)
   - eliminarAlumno(IAlumno)
@@ -56,45 +30,50 @@ class Tarjeta {
 }
 
 class PeriodoInforme{
-  + grupoInforme : Grupo
-  + periodo : Date
-  + exportarInforme (IPeriodo)
+  + crearInforme(Grupo)
 }
 
-interface IGrupo extends IAlumno{
-  # crearGrupo()
-  # eliminarGrupo()
-  # modificarGrupo()
+class RegistrarAsistencia{
+  - Asistencia : <List>
 }
 
-interface IAlumno {
-  # crearAlumno()
-  # modificarAlumno()
-  # eliminarAlumno()
+interface GrupoDAO{
+  - registrarGrupo(Grupo)
+  - eliminarGrupo(Grupo, List<Alumnos>)
+  - modificarGrupo (Grupo, List <Alumnos>)
+  - consultarGrupo(Grupo)
 }
 
-interface ITarjeta extends Alumno{
-  # registrarTarjeta()
-  # eliminarTarjeta()
-  # modificarTarjeta()
+interface AlumnoDAO{
+  - registrarAlumno(Alumno)
+  - modificarAlumno(Alumno)
+  - bajaAlumno(Alumno)
 }
 
-interface IPeriodo extends PeriodoInforme{
+interface TarjetaDAO{
+  - registrarTarjeta(Tarjeta)
+  - modificarTarjeta(Tarjeta)
+  - eliminarTarjeta(Tarjeta)
+}
+
+interface AsistenciaDAO extends Grupo{
+  + RegistrarAsistencia(Grupo)
+
+}
+
+interface PeriodoDAO extends PeriodoInforme{
   + exportarInforme()
 }
 
 
-Grupo ..|> IGrupo : realización
-Grupo "1"--"2..3" DiasDeClases
-Grupo "1"--"1..2" HoraDeClase
+Grupo ..|> GrupoDAO
 Alumno "*" o-- "1" Grupo
-Alumno ..|> IAlumno
-Tarjeta ..|> ITarjeta
+Alumno ..|> AlumnoDAO
+Tarjeta ..|> TarjetaDAO
 Tarjeta "1" --* "1" Alumno
-Tarjeta ..> Alumno 
 PeriodoInforme <-- Grupo
+AsistenciaDAO <-- RegistrarAsistencia
 
-@enduml  
--->
+@enduml  -->
 # Diagrama de clases
-![Diagrama de clasesv2](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/119078847/3d3ab1c4-69be-4032-bb6d-b300f85df4c8)
+![Diagrama de clases](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/119078847/ec7094e5-bd84-4624-9ca6-bf2d60cec7cc)
