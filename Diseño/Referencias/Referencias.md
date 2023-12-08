@@ -19,3 +19,6 @@
 
 #### VII. Definición de "Android"
 >Qué es Android | Android. (n.d.). Android. https://www.android.com/intl/es-419_mx/what-is-android/
+
+#### VII. Definición de "MVC"
+>Qué es MVC | CodingOrNot (n.d.). MVC. https://codingornot.com/mvc-modelo-vista-controlador-que-es-y-para-que-sirve
