@@ -20,5 +20,9 @@
 #### VII. Definición de "Android"
 >Qué es Android | Android. (n.d.). Android. https://www.android.com/intl/es-419_mx/what-is-android/
 
-#### VII. Definición de "MVC"
+#### VIII. Definición de "MVC"
 >Qué es MVC | García, M. (2017, 5 octubre).MVC (Modelo-Vista-Controlador): ¿Qué es y para qué sirve? https://codingornot.com/mvc-modelo-vista-controlador-que-es-y-para-que-sirve
+
+
+#### IX. Definición de "PDF/A"
+>Kivi, M. (2023, 10 octubre). 5 formatos de archivo PDF que debe conocer. PDF Mail Merger. https://pdfmailmerger.com/es/blog/5-formatos-de-archivo-pdf-que-debe-conocer/
