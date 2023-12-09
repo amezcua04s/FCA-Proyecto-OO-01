@@ -1,5 +1,5 @@
 # Propósito
-El aplicativo tendrá como nombre SATMI que representa(Sistema de Asistencia con Tarjeta de Movilidad Integrada)
+El aplicativo tendrá como nombre "SATMI", abreviativo de: "Sistema de Asistencia con Tarjeta de Movilidad Integrada".
 
 ### Logotipo
 <img width="260" alt="Captura de Pantalla 2023-12-07 a la(s) 15 40 53" src="https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/119078847/b6955e27-cb8c-4688-a57b-322caf4a0ab4">

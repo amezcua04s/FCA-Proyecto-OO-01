@@ -1,5 +1,5 @@
 # ID
- - UC - 010 : Generar Informe
+ - CU - 010 : Generar Informe
    
 ## Actores
  * Profesor
@@ -8,20 +8,20 @@
  * Secundario
 
 ## Partes interesadas e intereses:
-- El profesor podrá obtener informes de asistencia de los alumnos
+- El profesor podrá obtener informes de asistencia de los alumnos.
 
 ## Breve descripción
-El sistema proveerña los informes del grupo seleccionado hasta el momento de la generación de este (asistencias por alumno y la fecha de la asistencia)
+- El sistema proveerá los informes del grupo seleccionado hasta el momento de la generación de este (asistencias por alumno y la fecha de la asistencia).
 
 ## Pre condiciones
-- El profesor debe de tener al menos un grupo registrado en el sistema
+- El sistema deberá tener al menos un grupo registrado en la base de datos.
 
 ## Disparador
-El profesor ingresará a la opcion de "Informe" dentro del grupo sobre el cuál exportara el informe
+El profesor ingresará a la opcion de "Informes" dentro del grupo sobre el cuál exportara el informe
 
 ## Flujo normal de eventos
-1. El profesor ingresa al apartado de Informes 
-2. El sistema muestra la información del grupo en forma de tabla con todos los registros encontrados hasta la fecha de consulta
+1. El profesor ingresará al apartado de "Informes".
+2. El sistema mostrará la información del grupo en forma de tabla con todos los registros encontrados hasta la fecha de consulta.
 
  ### La primer página del documento se vería de la siguiente manera
 | Grupo  | Nombre del alumno  | 1/12/2023 | 6/12/2023 | 8/12/2023| 8/12/2023 | 8/12/2023| Asistencias (%) | Faltas (%) | 
@@ -35,8 +35,9 @@ El profesor ingresará a la opcion de "Informe" dentro del grupo sobre el cuál 
 | 1391   | Pepito perez  | &#10011;  (Justificada)| &#10005; (Falta)| &#10003;  (Asistencia) | &#10005; (Falta)| &#10003;  (Asistencia)|  6 (67%)   |  3 (33%)   | 
 | 1391   |  Julian Gomez|  &#10003;  (Asistencia)| &#10003;  (Asistencia)| &#10003;  (Asistencia) | &#10011;  (Justificada) | &#10003;  (Asistencia)  |6 (75%)      | 2 (25%)      | 
 | 1391   | Ada Lovelace         | &#10011;  (Justificada)  | &#10005; (Falta)| &#10003;  (Asistencia)| &#10003;  (Asistencia) | &#10005; &#10003;  (Asistencia) |  5 (71%)  | 2 (29%) |
+> * Tomar tablas como referencia
 
-3. El profesor ingresara la opcion "Continuar" 
-5. El sistema solicita al profesor guardar el archivo de forma local, y le de un nombre al archivo
-6. Una vez seleccionado el formato, el sistema crea un archivo con formato "PDF" y lo exporta al almacenamiento local del celular del profesor
-7. El sistema muestra un mensaje de exito de la operación
+3. El profesor seleccionará la opcion "Continuar".
+5. El sistema solicitará al profesor guardar el archivo de forma local, y le de un nombre al archivo.
+6. El sistema creará un archivo con formato "PDF/A" y lo exporta al almacenamiento local del celular del profesor.
+7. El sistema mostrará un mensaje de exito de la operación.

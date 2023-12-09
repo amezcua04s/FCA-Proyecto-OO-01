@@ -22,3 +22,15 @@
 
 #### VII. Definición de "MVC"
 >Qué es MVC | García, M. (2017, 5 octubre).MVC (Modelo-Vista-Controlador): ¿Qué es y para qué sirve? https://codingornot.com/mvc-modelo-vista-controlador-que-es-y-para-que-sirve
+
+#### VIII. Definición de "PDF"
+> What is PDF? Adobe Portable Document Format | Adobe Acrobat DC. (n.d.). https://www.adobe.com/mx/acrobat/about-adobe-pdf.html
+
+#### IX. Definición de "PDF/A"
+> Kivi, M. (2023, October 10). 5 formatos de archivo PDF que debe conocer. PDF Mail Merger. https://pdfmailmerger.com/es/blog/5-formatos-de-archivo-pdf-que-debe-conocer/
+
+#### X. Definición de "Casos de uso"
+> IBM documentation. (n.d.). https://www.ibm.com/docs/es/engineering-lifecycle-management-suite/lifecycle-management/6.0.3?topic=requirements-defining-use-cases
+
+#### XI. Definición de "Diagrama", "Diagrama de secuencia", "Diagrama de estados"
+> Microsoft 365 Team. (2019, September 24). La guía sencilla para la diagramación de UML y el modelado de la base de datos. https://www.microsoft.com/es-mx/microsoft-365/business-insights-ideas/resources/guide-to-uml-diagramming-and-database-modeling
