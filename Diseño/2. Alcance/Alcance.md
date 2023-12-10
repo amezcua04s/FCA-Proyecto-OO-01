@@ -1,0 +1,3 @@
+# Alcance del aplicativo
+
+El alcance de la aplicación, tiene un enfoque de llegar a toda la plantilla de profesores de la FCA-UNAM que cuenten con un dispositivo que tenga Android con versión mínima de Android 11, además de que continuar actualizando el aplicativo de forma iterativa con el paso del tiempo, para eliminar los [GAPS](/Diseño/Alcance/GAPS.md) con los que nos encontramos en el momento de la creación de la Versión 1.
