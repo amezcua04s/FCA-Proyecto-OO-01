@@ -1,6 +1,7 @@
 # Registrar Asistencia
+- El diagrama de estados de "Registrar Asistencia" representa visualmente los diferentes estados y transiciones que experimenta el sistema cuando se quiere hacer el registro de un Alumno, desde el inicio hasta la finalización del proceso.
+![Captura de Pantalla 2023-12-08 a la(s) 0 05 39](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/125850397/14667cbb-f80d-4ce9-a479-0c779a66e191)
 
-![Captura de Pantalla 2023-12-08 a la(s) 0 05 39](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/125850397/7b371ce8-a25c-422a-bc91-58d35b2ace5e)
 
 
 
