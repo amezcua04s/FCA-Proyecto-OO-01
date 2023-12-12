@@ -19,7 +19,7 @@ Grupo_Seleccionado --> c : Acerca Tarjeta a Lector
 c -  -> Tarjeta_Leída : Aceptada
 c -  -> Tarjeta_No_Leída : En espera
 Tarjeta_No_Leída -  -> [*]
-Tarjeta_Leída --> Asistencia_Registrada : Confirma Asistencia
+Tarjeta_Leída --  > Asistencia_Registrada : Confirma Asistencia
 Asistencia_Registrada -  -> [*]
 }
 
