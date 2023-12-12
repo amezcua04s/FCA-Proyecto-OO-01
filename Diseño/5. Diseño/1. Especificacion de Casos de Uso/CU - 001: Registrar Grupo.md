@@ -41,4 +41,4 @@ S-1 En el paso 4 (En caso de que se encuentre otro registro)
      1. El flujo del caso de uso continua el flujo normal en el paso 7
 
 ## Excepciones
-- El profesor deja algún campo vacio, por lo que el registro no se lleva a cabo
+- El profesor deja algún campo vacío, por lo que el registro no se lleva a cabo
