@@ -17,10 +17,10 @@
 - El sistema deberá tener al menos un grupo registrado en la base de datos.
 
 ## Disparador
-El profesor ingresará a la opcion de "Informes" dentro del grupo sobre el cuál exportara el informe
+El profesor seleccionará a la opcion de "Informes" dentro del grupo sobre el cuál exportara el informe
 
 ## Flujo normal de eventos
-1. El profesor ingresará al apartado de "Informes".
+1. El profesor seleccionará el apartado de "Informes".
 2. El sistema mostrará la información del grupo en forma de tabla con todos los registros encontrados hasta la fecha de consulta.
 
  ### La primer página del documento se vería de la siguiente manera

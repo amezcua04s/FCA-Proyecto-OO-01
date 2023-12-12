@@ -14,13 +14,13 @@
 - El profesor registrará la asistencia de los alumnos del grupo seleccionado.
 
 ## Disparador
-- El profesor ingresa al apartado de pase de asistencia del grupo correspondiente.
+- El profesor seleccionará el apartado de "Tomar Asistencia" del grupo correspondiente.
 
 ## Flujo normal de eventos
-1. El profesor seleccionará pasar asistencia
-2. El sistema informará que esta esperando a leer tarjeta
+1. El profesor seleccionará "Tomar Asistencia" en el grupo corresponiente.
+2. El sistema mostrará que esta esperando a leer tarjeta
 3. El profesor acercará la tarjeta de cada alumno
-4. Por cada vez que se lea la tarjeta, el sistema hará un sonido que indique que se leyo, y mostrara la información del alumno que se cerrara de forma automática 3 segundos después.
+4. Por cada vez que se lea la tarjeta, el sistema hará un sonido que indique que se leyo, y mostrará la información del alumno que se cerrara de forma automática 3 segundos después.
 5. El sistema cerrará el modulo de pase de asistencia 20 minutos (1,200 segundos) despues de ser iniciada.
 6. El sistema informará que el periodo termino.
 

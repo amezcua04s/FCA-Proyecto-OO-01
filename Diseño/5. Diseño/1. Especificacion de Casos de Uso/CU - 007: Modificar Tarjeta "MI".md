@@ -18,7 +18,7 @@
 - El alumno al que se le desea modificar la tarjeta debe de existir registrado previamente en el sistema.
 
 ## Disparador
-- El profesor selecciona "Modificar tarjeta" en el apartado de modificar alumno.
+- El profesor seleccionará "Modificar tarjeta" en el apartado de modificar alumno.
 
 ## Relaciones
 - **Inlcuye**: CU - 006: Eliminar Tarjeta "MI"

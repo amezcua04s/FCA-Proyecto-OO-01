@@ -17,13 +17,13 @@ El profesor podrá cambiar algún dato o datos de un grupo registrado en el sist
 - El profesor debe tener en el sistema al menos un grupo registrado, para poder modificar la información de este.
 
 ## Disparador
-El profesor ingresará a la opcion de "Modificar grupo" en el grupo correspondiente.
+El profesor seleccionará la opcion de "Modificar grupo" en el grupo correspondiente.
 
 ## Relaciones
 - **Extiende**: CU : 004: Baja Grupo
 
 ## Flujo normal de eventos
-1. El profesor ingresará al apartado de modificar grupo en el grupo correspondiente.
+1. El profesor seleccionará el apartado de "Modificar grupo" en el grupo correspondiente.
 2. El sistema avisará que en caso de que algún campo de la modificación se deje vacío, no se modificará ese campo.
 3. El sistema mostrará los datos del grupo en forma de tabla.
 
