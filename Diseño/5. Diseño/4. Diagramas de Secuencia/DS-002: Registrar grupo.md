@@ -5,19 +5,19 @@
 title DS - 002: Registrar Alumno
 
 Usuario -> AppUI: selecciona\n"Alta Grupo"
-AppUI --> Usuario: "Ingrese datos: "
-<!-- Usuario --> AppUI: ingresaDatos()
+AppUI --><!-- Usuario: "Ingrese datos: "-->
+<!-- Usuario --><!-- AppUI: ingresaDatos()
 <!-- alt Campos completos
 AppUI -> DataSource: registrarGrupo
-DataSource -> GrupoDAO: registrarGrupo\n(Grupo)
+<!--DataSource -> GrupoDAO: registrarGrupo\n(Grupo)
 GrupoDAO -> GrupoDAO: nuevoGrupo
 GrupoDAO-> SQLite: guardarRegistro\n(nuevoGrupo)
-SQLite --> DataSource: returnResult(nuevoGrupo)
-<!--DataSource --> AppUI: returnResult\n(nuevoGrupo)
+SQLite --><!-- DataSource: returnResult(nuevoGrupo)
+<!--DataSource --><!-- AppUI: returnResult\n(nuevoGrupo)
 <!--alt Registro exitoso
-AppUI --> Usuario: "Grupo\nregistrado"
+AppUI --><!-- Usuario: "Grupo\nregistrado"
 <!--else Registro no exitoso
-AppUI --> Usuario: "Grupo\nno registrado"
+AppUI --><!-- Usuario: "Grupo\nno registrado"
 <!--end
 else Campos Incompletos
 AppUI -> Usuario: "Campos\nincompletos")
