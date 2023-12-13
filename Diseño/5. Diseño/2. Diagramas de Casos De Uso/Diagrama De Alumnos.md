@@ -28,6 +28,8 @@ fc -> UC10
 fc .-> UC11
 
 @enduml -->
+# Diagrama de casos de uso de alumnos
+### El siguiente diagrama muestra como es que se relacionan los caso de uso de alumnos entre ellos y con los casos de uso de las tarjetas, también muestra la relación con el actor que será el profesor que esté utilizando el sistema.
 
 ![image](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/147119596/5a9e2382-182d-4857-af4f-72a1efc9a4a0)
 
