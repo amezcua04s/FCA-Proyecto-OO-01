@@ -24,8 +24,8 @@
 - **Inclusión**: CU - 003: Registro Tarjeta "MI"
 
 ## Flujo normal de eventos
-1. El profesor seleccionará el grupo al que registrará el alumno.
-2. El profesor ingresará al apartado de "Registrar nuevo alumno".
+1. El profesor seleccionará el grupo al que registrará al alumno.
+2. El profesor seleccionará al apartado de "Registrar nuevo alumno".
 3. El profesor ingresará el nombre del alumno.
 4. El sistema extiende al caso de uso "CU - 003: Registro Tarjeta "MI"".
 5. El sistema verificará que no exista un registro previo del alumno que se desea agregar.

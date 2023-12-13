@@ -17,7 +17,7 @@ El profesor podrá dar de alta un nuevo grupo en el sistema, con la posibilidad 
 El profesor ingresará a la opcion de "Registrar nuevo grupo".
 
 ## Flujo normal de eventos
-1. El profesor ingresará al apartado de registro de grupo.
+1. El profesor seleccionará el apartado de "Registrar Grupo".
 2. El profesor ingresará el nombre de la materia.
 3. El profesor ingresará el número de grupo.
 4. El sistema verificará que no exista otro registro con ese número de grupo.
@@ -29,7 +29,7 @@ El profesor ingresará a la opcion de "Registrar nuevo grupo".
 |Análisis y diseño de sistemas|1391| 
 > * Tomar tabla como referencia
 
-7. El sistema muestra mensaje del resultado de la operación
+7. El sistema muestra mensaje del resultado de la operación.
 
 ## Sub-flujo
 S-1 En el paso 4 (En caso de que se encuentre otro registro)

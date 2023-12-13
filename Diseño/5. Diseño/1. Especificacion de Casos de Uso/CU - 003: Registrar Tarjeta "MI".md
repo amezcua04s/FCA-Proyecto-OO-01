@@ -11,7 +11,7 @@
 - El profesor asignará la información de un alumno en la tarjeta de "MI" del propio alumno
   
 ## Breve descripción
-- Al momento de registrar un nuevo alumno el profesor le asignara su propio NFC desde la tarjeta "MI" del alumno
+- Al momento de registrar un nuevo alumno el profesor le asignará su propio NFC desde la tarjeta "MI" del alumno
 
 ## Pre condiciones
 - El alumno debe de tener una tarjeta de "MI" propia

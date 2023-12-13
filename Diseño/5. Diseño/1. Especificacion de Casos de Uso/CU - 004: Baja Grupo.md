@@ -23,7 +23,7 @@
 1. El profesor seleccionará el grupo que desea eliminar.
 2. El profesor seleccionará la opción "Baja de grupo".
 3. El sistema mostrará un "pop-up" de advertencia, pues si elimina el grupo, se eliminan todos los registros asociados a este.
-4. El sistema mostrará toda la lista de los alumnos registrados en formato de tabla
+4. El sistema mostrará toda la lista de los alumnos registrados en formato de tabla.
 
 | Análisis y Diseño de Sistemas | Nombre del alumno| Valor de la tarjeta|
 |:----:|:----:|:----:|
