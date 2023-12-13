@@ -25,6 +25,6 @@
 6. El sistema informará que el periodo terminó.
 
 ## Sub-flujo  
-S-1 En el paso 3 (En caso de querer leer por segunda ocasión una tarjeta que ya leyo en esta sesión)
+S-1 En el paso 3 (En caso de querer leer por segunda ocasión una tarjeta que ya leyó en esta sesión)
 1. El sistema mostrará el error.
-1. El caso de uso continua en el flujo 6
+1. El caso de uso continúa en el flujo 6
