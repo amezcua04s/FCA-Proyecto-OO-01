@@ -23,7 +23,8 @@ fc .-> UC9
 @enduml 
 -->
 
-![image](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/147119596/60e43e5e-5df8-445d-bb13-62c27e27a477)
+![image](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/147119596/3309dfa1-1447-45f9-a26c-96ba169f2733)
+
 
 
 
