@@ -18,11 +18,11 @@
 
 ## Flujo normal de eventos
 1. El profesor seleccionará "Tomar Asistencia" en el grupo corresponiente.
-2. El sistema mostrará que esta esperando a leer tarjeta
+2. El sistema mostrará que está esperando a leer tarjeta
 3. El profesor acercará la tarjeta de cada alumno
-4. Por cada vez que se lea la tarjeta, el sistema hará un sonido que indique que se leyo, y mostrará la información del alumno que se cerrara de forma automática 3 segundos después.
-5. El sistema cerrará el modulo de pase de asistencia 20 minutos (1,200 segundos) despues de ser iniciada.
-6. El sistema informará que el periodo termino.
+4. Por cada vez que se lea la tarjeta, el sistema hará un sonido que indique que se leyó, y mostrará la información del alumno que se cerrará de forma automática 3 segundos después.
+5. El sistema cerrará el modulo de pase de asistencia 20 minutos (1,200 segundos) después de ser iniciada.
+6. El sistema informará que el periodo terminó.
 
 ## Sub-flujo  
 S-1 En el paso 3 (En caso de querer leer por segunda ocasión una tarjeta que ya leyo en esta sesión)
