@@ -14,7 +14,7 @@
 - El alumno desea modificar un dato erroneo en el sistema.
 - El profesor podrá llevar control preciso de la información.
   
-## Breve descripcion
+## Breve descripción
 - El profesor podrá modificar un alumno que ya exista en el sistema, cambiando el nombre del alumno o el id de la tarjeta "MI" asociada al alumno.
 
 ## Pre condiciones
