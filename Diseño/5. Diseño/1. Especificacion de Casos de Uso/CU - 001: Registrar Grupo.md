@@ -11,10 +11,10 @@
 - El profesor desea registrar un nuevo grupo.
 
 ## Breve descripción
-El profesor podrá dar de alta un nuevo grupo en el sistema, con la posibilidad de asignarle alumnos previemante registrados, así como asignarle un horario al grupo.
+El profesor podrá dar de alta un nuevo grupo en el sistema, con la posibilidad de asignarle alumnos previamente registrados, así como asignarle un horario al grupo.
 
 ## Disparador
-El profesor ingresará a la opcion de "Registrar nuevo grupo".
+El profesor ingresará a la opción de "Registrar nuevo grupo".
 
 ## Flujo normal de eventos
 1. El profesor seleccionará el apartado de "Registrar Grupo".
