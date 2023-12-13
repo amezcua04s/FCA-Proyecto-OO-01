@@ -36,9 +36,9 @@ S-1 En el paso 4 (En caso de que se encuentre otro registro)
  1. El sistema señala el error y muestra la información del otro grupo ya existente
  1. El sistema pregunta si desea modificar el número del grupo
    - En caso de que si
-     1. El flujo del caso de uso continua el flujo normal en el paso 3
+     1. El flujo del caso de uso continúa el flujo normal en el paso 3
    - De lo contrario
-     1. El flujo del caso de uso continua el flujo normal en el paso 7
+     1. El flujo del caso de uso continúa el flujo normal en el paso 7
 
 ## Excepciones
 - El profesor deja algún campo vacío, por lo que el registro no se lleva a cabo
