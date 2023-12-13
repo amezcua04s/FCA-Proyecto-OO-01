@@ -17,7 +17,7 @@ El profesor podrá cambiar algún dato o datos de un grupo registrado en el sist
 - El profesor debe tener en el sistema al menos un grupo registrado, para poder modificar la información de este.
 
 ## Disparador
-El profesor seleccionará la opcion de "Modificar grupo" en el grupo correspondiente.
+El profesor seleccionará la opción de "Modificar grupo" en el grupo correspondiente.
 
 ## Relaciones
 - **Extiende**: CU : 004: Baja Grupo
