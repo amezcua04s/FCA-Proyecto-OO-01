@@ -1,4 +1,4 @@
-# Diagrama de secuencia: DS-004: Registrar asitencia
+# Diagrama de secuencia: DS-004: Registrar Asitencia
 - El diagrama representa la forma en la que se registra la asistencia de los alumnos dentro de la la aplicación [SATMI](/Diseño/1.%20Propósito/Propósito.md), representa de forma simbólica los módulos involucrados y como se comunican entre sí para realizar la operación.
     - El diagrama inicia en el contexto donde la aplicación ya ha sido inicializada con éxito y ya existe un grupo registrado en el sistema con al menos un alumno.
 
