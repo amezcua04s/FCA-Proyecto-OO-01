@@ -16,5 +16,5 @@ El aplicativo no tiene la capacidad de utilizar horarios para apartar grupos, el
 #### V. **La aplicación no tiene credenciales**
 El aplicativo no tiene una base de datos de los usuarios que la utilizan, por lo que no tiene una forma de poder compartir información de forma remota, y no utiliza credenciales, pues la información es almacenada de forma local en un dispositivo móvil.
 
-#### VI. **La aplicación sólo podrá exportar arvhivos en formato PDF/A**
+#### VI. **La aplicación sólo podrá exportar archivos en formato PDF/A**
 El aplicativo sólo tendrá la capacidad de generar archivos con extensión [PDF/A](/Diseño/Definiciones/Definiciones.md) a la hora de hacer informes.
