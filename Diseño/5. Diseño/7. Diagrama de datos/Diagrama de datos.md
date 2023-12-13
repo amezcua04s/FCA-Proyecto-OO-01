@@ -1,7 +1,7 @@
 # Diagrama de datos
-- Cada tabla representa una entidad de la base de datos, y como es que se relacionan, para guardar la información de forma optima
+- Cada tabla representa una entidad de la base de datos, y cómo es que se relacionan, para guardar la información de forma óptima
     - La entidad transitiva "Alumno_Grupo" representa la lista de alumnos que pertenecen a un grupo
-    - La entidad transitiva "Asistencia" representa la asistencia que tuvo cada alumno en un grupo en especifico
+    - La entidad transitiva "Asistencia" representa la asistencia que tuvo cada alumno en un grupo en específico
 <!--
 @startuml
 
