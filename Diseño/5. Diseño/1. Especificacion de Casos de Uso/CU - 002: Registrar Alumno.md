@@ -25,9 +25,9 @@
 
 ## Flujo normal de eventos
 1. El profesor seleccionará el grupo al que registrará al alumno.
-2. El profesor seleccionará al apartado de "Registrar nuevo alumno".
+2. El profesor seleccionará el apartado de "Registrar nuevo alumno".
 3. El profesor ingresará el nombre del alumno.
-4. El sistema extiende al caso de uso "CU - 003: Registro Tarjeta "MI"".
+4. El sistema extiende al caso de uso "CU - 003: Registro Tarjeta "MI".
 5. El sistema verificará que no exista un registro previo del alumno que se desea agregar.
 6. Se dará de alta el NFC con los datos asignados.
 7. El sistema mostrará un mensaje del resultado de la operación.
