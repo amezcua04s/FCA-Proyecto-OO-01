@@ -2,7 +2,7 @@
 - El diagrama representa la forma en la que se registra un grupo dentro de la aplicación [SATMI](/Diseño/1.%20Propósito/Propósito.md), representa de forma simbólica los módulos involucrados y como se comunican entre sí para realizar la operación.
 <!-- @startuml 
 
-title DS - 002: Registrar Alumno
+title DS - 002: Registrar Grupo
 
 Usuario -> AppUI: selecciona\n"Alta Grupo"
 AppUI --><!-- Usuario: "Ingrese datos: "-->
@@ -24,4 +24,4 @@ AppUI -> Usuario: "Campos\nincompletos")
 end
 
 @enduml-->
-![DS 02 REGISTRAR GRUPO](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/119078847/6565bcce-1095-469d-b128-d0bf603c4d0c)
+![DS 002 REGISTRARGRUPO](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/119078847/7ef813f8-f78a-4e82-afb0-84389be67346)
