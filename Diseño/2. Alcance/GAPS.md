@@ -1,5 +1,5 @@
 # GAPS
-## Limitantes del aplicativo en la Versión 1
+## Limitantes del aplicativo en la Versión 1.0.0.
 
 ##### I. **La aplicación solamente estará disponible para Android**
 El aplicativo solamente está pensado para poder ser utilizado en Android debido a las librerías que se utilizarán.
