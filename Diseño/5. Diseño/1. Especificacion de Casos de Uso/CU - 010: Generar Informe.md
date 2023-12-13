@@ -37,7 +37,7 @@ El profesor seleccionará a la opcion de "Informes" dentro del grupo sobre el cu
 | 1391   | Ada Lovelace         | &#10011;  (Justificada)  | &#10005; (Falta)| &#10003;  (Asistencia)| &#10003;  (Asistencia) | &#10005; &#10003;  (Asistencia) |  5 (71%)  | 2 (29%) |
 > * Tomar tablas como referencia
 
-3. El profesor seleccionará la opcion "Continuar".
+3. El profesor seleccionará la opción "Continuar".
 5. El sistema solicitará al profesor guardar el archivo de forma local, y le de un nombre al archivo.
 6. El sistema creará un archivo con formato "PDF/A" y lo exporta al almacenamiento local del celular del profesor.
 7. El sistema mostrará un mensaje de exito de la operación.
