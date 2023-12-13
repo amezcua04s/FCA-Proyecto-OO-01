@@ -11,7 +11,7 @@
 - El profesor desea dar de baja un alumno y los registros asociados a este dentro del sistema a causa de baja de grupo.
   
 ## Breve descripción
-- El sistema eliminara a un alumno y todos los registros que esten asociados al alumno a causa de baja de grupo.
+- El sistema eliminará a un alumno y todos los registros que esten asociados al alumno a causa de baja de grupo.
 
 ## Pre condiciones
 - El profesor debe de tener registrado al menos a un alumno dentro del sistema.
