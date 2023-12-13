@@ -29,7 +29,7 @@ El profesor ingresará a la opción de "Registrar nuevo grupo".
 |Análisis y diseño de sistemas|1391| 
 > * Tomar tabla como referencia
 
-7. El sistema muestra mensaje del resultado de la operación.
+7. El sistema muestra un mensaje del resultado de la operación.
 
 ## Sub-flujo
 S-1 En el paso 4 (En caso de que se encuentre otro registro)

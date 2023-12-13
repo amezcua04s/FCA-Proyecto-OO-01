@@ -2,9 +2,9 @@
 ## Limitantes del aplicativo en la Versión 1
 
 ##### I. **La aplicación solamente estará disponible para Android**
-El aplicativo solamente esta pensado para poder ser utilizado en Android debido a las librerías que se utilizarán.
+El aplicativo solamente está pensado para poder ser utilizado en Android debido a las librerías que se utilizarán.
 
-#### II. **La aplicación no esta disponible para todas las versiones de Android**
+#### II. **La aplicación no está disponible para todas las versiones de Android**
 El sistema necesita que el usuario tenga al menos la versión de Android 11 para poder funcionar, esto debido a las librerías que se utilizaron para el correcto funcionamiento.
 
 #### III. **La aplicación no tendrá conexión con una base de datos en la nube**

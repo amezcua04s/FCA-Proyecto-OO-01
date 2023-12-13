@@ -46,4 +46,4 @@ El profesor seleccionará la opción de "Modificar grupo" en el grupo correspond
 |1391| Análisis y Diseño de Sistemas|
 >* Tomar tabla como referencia
 
-5. El sistema mostrará mensaje del resultado de la operación en forma de pop-up.
+5. El sistema mostrará un mensaje del resultado de la operación en forma de pop-up.

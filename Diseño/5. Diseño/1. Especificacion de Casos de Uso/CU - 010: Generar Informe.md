@@ -39,5 +39,5 @@ El profesor seleccionará a la opción de "Informes" dentro del grupo sobre el c
 
 3. El profesor seleccionará la opción "Continuar".
 5. El sistema solicitará al profesor guardar el archivo de forma local, y le de un nombre al archivo.
-6. El sistema creará un archivo con formato "PDF/A" y lo exporta al almacenamiento local del celular del profesor.
+6. El sistema creará un archivo con formato "PDF/A" y lo exportará al almacenamiento local del celular del profesor.
 7. El sistema mostrará un mensaje de exito de la operación.

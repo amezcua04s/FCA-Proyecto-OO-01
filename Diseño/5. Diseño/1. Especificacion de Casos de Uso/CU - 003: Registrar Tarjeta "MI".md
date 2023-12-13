@@ -5,7 +5,7 @@
 * Profesor
   
 ## Tipo 
-* Escencial
+* Esencial
    
 ## Partes interesadas e intereses:
 - El profesor asignará la información de un alumno en la tarjeta de "MI" del propio alumno
@@ -20,10 +20,10 @@
 - Caso de uso "CU - 002: Registrar Alumno"
 
 ## Flujo normal de eventos
-1. El caso de uso "CU - 002: Registrar Alumno " extenderá a este.
+1. El caso de uso "CU - 002: Registrar Alumno " se extenderá a este.
 2. El sistema solicitará acercar el NFC para asociar los datos.
 3. El sistema verificará que no exista la tarjeta en el sistema.
-4. El sistema mostrará mensaje de éxito en forma de "pop-up".
+4. El sistema mostrará un mensaje de éxito en forma de "pop-up".
 5. El flujo continua en el paso correspondiente de caso de uso "CU - 002: Registrar Alumno".
 
 ## Subflujos

@@ -54,7 +54,7 @@
 #### Definición de "UI"
 > Capa de la IU. (n.d.). Android Developers. https://developer.android.com/jetpack/guide/ui-layer?hl=es-419
 
-#### Definifición de "MI"
+#### Definición de "MI"
 > Colaboradores de Wikipedia. (2023, December 2). Tarjeta de Movilidad Integrada. Wikipedia, La Enciclopedia Libre. https://es.wikipedia.org/wiki/Tarjeta_de_Movilidad_Integrada#:~:text=Esta%20basada%20en%20el%20est%C3%A1ndar,Ecobici%2C%20Cableb%C3%BAs%20y%20El%20Insurgente.
 
 #### Definición de "MVC"
