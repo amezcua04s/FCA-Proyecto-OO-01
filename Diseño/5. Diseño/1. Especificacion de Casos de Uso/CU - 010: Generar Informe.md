@@ -17,7 +17,7 @@
 - El sistema deberá tener al menos un grupo registrado en la base de datos.
 
 ## Disparador
-El profesor seleccionará a la opcion de "Informes" dentro del grupo sobre el cuál exportara el informe
+El profesor seleccionará a la opción de "Informes" dentro del grupo sobre el cuál exportará el informe
 
 ## Flujo normal de eventos
 1. El profesor seleccionará el apartado de "Informes".
