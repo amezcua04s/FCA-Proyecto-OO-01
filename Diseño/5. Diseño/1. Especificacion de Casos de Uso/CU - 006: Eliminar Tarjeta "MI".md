@@ -23,7 +23,7 @@
 - UC - 007: Modificar Tarjeta "MI"
 
 ## Flujo normal de eventos
-1. El caso de uso externo llamrá al caso de uso.
+1. El caso de uso externo llamará al caso de uso.
 2. El sistema eliminará los registros asociados a esta tarjeta.
 3. El sistema eliminará el valor de la tarjeta seleccionada del sistema.
 4. El sistema continuará en el caso de uso externo.
