@@ -3,7 +3,7 @@
 left to right direction
 actor "Profesor" as fc
 
-rectangle SistemaAsistencias{
+rectangle SATMI{
 
     usecase "UC-002: Registrar Alumno" as UC2
     usecase "UC-005: Borrar Alumno" as UC5
@@ -29,5 +29,6 @@ fc .-> UC11
 
 @enduml -->
 
-![image](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/147119596/7352952c-4380-4b3d-aed4-0fe71c01d1d6)
+![image](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/147119596/5a9e2382-182d-4857-af4f-72a1efc9a4a0)
+
 
