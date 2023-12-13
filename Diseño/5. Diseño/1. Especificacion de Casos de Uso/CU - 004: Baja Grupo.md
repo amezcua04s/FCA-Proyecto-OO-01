@@ -32,7 +32,7 @@
 |1391|Amezcua Arévalo Santiago|1EC843F0|
 > * Tomar tabla como referencia
 
-5. El sistema preguntará si desea continuar con la operacion.
+5. El sistema preguntará si desea continuar con la operación.
 6. El sistema continuará en el caso de uso "CU - 005: Eliminar Alumno" y elimina de forma individual a  cada alumno asociado al grupo.
 7. El sistema eliminará todos los informes que encuentre del grupo seleccionado.
 8. El sistema mostrará mensaje del resultado de la operación en forma de "Pop-up".
