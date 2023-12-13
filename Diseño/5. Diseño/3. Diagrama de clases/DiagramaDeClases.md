@@ -76,4 +76,5 @@ AsistenciaDAO <-- RegistrarAsistencia
 
 @enduml  -->
 # Diagrama de clases
+- El diagrama representa las clases e interfaces que conforman el sistema y como es que se relacionan entre ellas. 
 ![Diagrama de clases](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/119078847/ec7094e5-bd84-4624-9ca6-bf2d60cec7cc)

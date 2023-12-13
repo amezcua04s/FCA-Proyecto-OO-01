@@ -2,6 +2,7 @@
 
 |Palabra|Definición|Referencias|
 |:------:|--------|:-----:|
+|"AAB"|Un Android App Bundle es un formato de publicación que incluye todos los recursos y el código compilado de tu app, pero delega la generación del APK y la firma a Google Play.|[AAB]|
 |"Android"|Android es un sistema operativo móvil basado en el núcleo Linux y otros software de código abierto. Fue diseñado para dispositivos móviles con pantalla táctil, como teléfonos inteligentes, tabletas, relojes inteligentes Wear OS, automóviles con otros sistemas a través de Android Auto, al igual los automóviles con el sistema Android Automotive y televisores Android TV.|[Android]|
 |"Android.dataBase.SQLite"|Las aplicaciones utilizan estas clases para administrar bases de datos privadas. Si crea un proveedor de contenido, probablemente tendrá que usar estas clases para crear y administrar su propia base de datos para almacenar contenido.|[Android base de datos de SQLite][ABDQSL]|
 |"Android.Print.PDF"|Esta clase es una ayuda para crear un archivo PDF para determinados atributos de impresión. Es útil para implementar la impresión a través de las API de gráficos nativas de Android.|[Android PDF][APDF]|
@@ -31,7 +32,7 @@
 |"Sistema Operativo"(SO)|El sistema operativo es el programa más importante de un dispositivo, permite que los programas sean ejecutados y realizen tareas básicas.|[Sistema Operativo]|
 |"SQLite"|SQLite no es un proceso independiente con el que el programa principal se comunica. En lugar de eso, la biblioteca SQLite se enlaza con el programa pasando a ser parte integral del mismo. El programa utiliza la funcionalidad de SQLite a través de llamadas simples a subrutinas y funciones.|[SQLite]|
 
-
+[AAB]: /Diseño/4.%20Referencias/Referencias.md#-definición-de-aab
 [Android]: /Diseño/4.%20Referencias/Referencias.md#definición-de-android
 [ABDQSL]: /Diseño/4.%20Referencias/Referencias.md#¿qué-es-android.database.sqlite?
 [ADS]: /Diseño/4.%20Referencias/Referencias.md#¿qué-es-android.datastore?

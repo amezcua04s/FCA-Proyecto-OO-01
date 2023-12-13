@@ -1,5 +1,5 @@
 # Diagrama de datos
-- Cada tabla representa una entidad de la base de datos, y convergen si es que existe una entidad que use dos de ellas, creando una nueva entidad
+- Cada tabla representa una entidad de la base de datos, y como es que se relacionan, para guardar la información de forma optima
 <!--
 @startuml
 

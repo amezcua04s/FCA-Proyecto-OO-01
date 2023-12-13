@@ -1,5 +1,8 @@
 # Referencias de consulta de información
 
+#### Definición de "AAB" 
+>Acerca de Android App Bundles. (n.d.). Android Developers. https://developer.android.com/guide/app-bundle?hl=es-419
+ 
 #### Definición de "Android"
 >Qué es Android | Android. (n.d.). Android. https://www.android.com/intl/es-419_mx/what-is-android/
 
