@@ -37,8 +37,10 @@
 - S-1 En el paso 4 (En caso de que se encuentre la tarjeta registrada en el sistema)
     1. El sistema mostrará el error.
     1. El sistema mostrará la información del alumno en forma de tabla que tiene registrada esta tarjeta.
+    
     | Grupo | Nombre del alumno| Valor de la tarjeta|
     |:----:|:----:|:----:|
     |1391|Amezcua Arévalo Santiago|7C5CD480|
      > * Tomar tabla como referencia.
+    
     1. El flujo se reanudará en el paso 8 del flujo normal.
