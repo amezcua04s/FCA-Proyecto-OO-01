@@ -23,7 +23,7 @@ fc .-> UC9
 @enduml 
 -->
 # Diagrama de casos de uso de grupos
-### El siguiente diagrama muestra como es que se relacionan los caso de uso de grupos entre ellos, y con el actor que será el profesor que esté utilizando el sistema.
+### El siguiente diagrama muestra cómo es que se relacionan los caso de uso de grupos entre ellos, y con el actor que será el profesor que esté utilizando el sistema.
 ![image](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/147119596/3309dfa1-1447-45f9-a26c-96ba169f2733)
 
 
