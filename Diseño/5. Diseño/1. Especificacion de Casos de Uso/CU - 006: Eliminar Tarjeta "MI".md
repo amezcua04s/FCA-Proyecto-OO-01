@@ -1,5 +1,5 @@
 # ID
-- CU - 004 : Eliminar Tarjeta "MI"
+- CU - 006 : Eliminar Tarjeta "MI"
    
 ## Actores
 - CU - 005: Borrar Alumno
