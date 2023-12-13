@@ -1,4 +1,4 @@
-# Diagrama de secuencia: DS-003: Registrar alumno
+# Diagrama de secuencia: DS-003: Registrar Alumno
 - El diagrama representa la forma en la que se registra un nuevo alumno dentro de la la aplicación [SATMI](/Diseño/1.%20Propósito/Propósito.md), representa de forma simbólica los módulos involucrados y como se comunican entre sí para realizar la operación.
     - El diagrama inicia en el contexto donde la aplicación ya ha sido inicializada con éxito y ya existe un grupo registrado en el sistema.
 
