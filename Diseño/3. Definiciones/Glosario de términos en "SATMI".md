@@ -29,7 +29,7 @@
 |"PDF/A"|Con el fin de conservar la información en el archivo y garantizar que el contenido tenga buen aspecto incluso tras periodos de almacenamiento muy largos, PDF/A establece normas más estrictas que las utilizadas en PDF.|[PDF/A]|
 |"SATMI"|Abreviativo del aplicativo; Sistema de Asistencia con Tarjeta de Movilidad Integrada.|  |
 |"Sistema Operativo"(SO)|El sistema operativo es el programa más importante de un dispositivo, permite que los programas sean ejecutados y realizen tareas básicas.|[Sistema Operativo]|
-|"SQLite"|La biblioteca SQLite se enlaza con el programa pasando a ser parte integral del mismo. El programa utiliza la funcionalidad de SQLite a través de llamadas simples a subrutinas y funciones.|[SQLite]|
+|"SQLite"|En un sistema de gestión de bases de datos relacional de dominio público que se enlaza al programa pasando a ser parte integral del mismo, ésta se utiliza a través de llamadas simples a funciones.|[SQLite]|
 
 [AAB]: /Diseño/4.%20Referencias/Referencias.md#-definición-de-aab
 [Android]: /Diseño/4.%20Referencias/Referencias.md#definición-de-android
