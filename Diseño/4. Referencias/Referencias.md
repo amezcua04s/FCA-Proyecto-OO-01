@@ -66,6 +66,9 @@
 #### Definición de "PDF/A"
 > Kivi, M. (2023, October 10). 5 formatos de archivo PDF que debe conocer. PDF Mail Merger. https://pdfmailmerger.com/es/blog/5-formatos-de-archivo-pdf-que-debe-conocer/
 
+#### Definición de "Share Service"
+> ¿Qué es el almacenamiento compartido? | Glosario. (s. f.). HPE LAMERICA. https://www.hpe.com/lamerica/es/what-is/shared-storage.html
+
 #### Definición de "Sistema operativo"
 > Natsys. (2017). Introducción a sistemas operativos: Conoce el corazòn de un SO. Natsys. https://books.google.com.mx/books?id=BhQkDwAAQBAJ&lpg=PA1&hl=es&pg=PA5#v=onepage&q&f=false
 
