@@ -25,7 +25,7 @@
 - El profesor seleccionará a la opcion de "Modificar alumno" dentro del grupo al que pertenece.
 
 ## Flujo normal de eventos
-1. El profesor ingresará al apartado "Moificar Alumno".
+1. El profesor ingresará al apartado "Modificar Alumno".
 2. El profesor seleccionará el alumno que desea modificar.
 3. El sistema mostrará los datos del alumno en formato de tabla.
 
