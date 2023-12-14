@@ -2,7 +2,8 @@
 - El diagrama representa la forma en la que se generará el informe de las asistencias dentro de la aplicación [SATMI](/Diseño/1.%20Propósito/Propósito.md), representa de forma simbólica los módulos involucrados y como se comunican entre sí para realizar la operación.
     - El diagrama inicia en el contexto donde la aplicación ya ha sido inicializada con éxito y ya existe un grupo registrado en el sistema con al menos un alumno.
 
-![DS 005Generar informe](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/119078847/06e20e40-8cf6-4854-ba96-dfd1b1902de8)
+![image](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/147119596/30953652-df31-48fa-8086-05c0a3874666)
+
 
 <!--@startuml 
 
