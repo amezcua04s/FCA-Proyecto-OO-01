@@ -14,7 +14,6 @@ AppUI -->
  alt Campos completos
 AppUI -> DataSource: registrarGrupo
 <!--DataSource -> GrupoDAO: registrarGrupo\n(Grupo)
-GrupoDAO -> GrupoDAO: nuevoGrupo
 GrupoDAO-> SQLite: guardarRegistro\n(nuevoGrupo)
 SQLite -->
 <!-- DataSource: returnResult(nuevoGrupo)
@@ -32,4 +31,5 @@ AppUI -> Usuario: "Campos\nincompletos")
 end
 
 @enduml-->
-![DS 002 REGISTRARGRUPO](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/119078847/7ef813f8-f78a-4e82-afb0-84389be67346)
+![image](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/147119596/715d35c1-0212-4163-ad5f-221dc88fb9ee)
+
