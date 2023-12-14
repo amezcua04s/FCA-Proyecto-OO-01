@@ -12,9 +12,6 @@
 #### ¿Qué es "Android.dataStore"?
 > Arquitectura de apps: Capa de datos - DataStore - Android Developers. (n.d.). Android Developers. https://developer.android.com/topic/libraries/architecture/datastore?hl=es-419#:~:text=Jetpack%20Datastore%20es%20una%20soluci%C3%B3n,escritos%20con%20b%C3%BAferes%20de%20protocolo.
 
-#### ¿Qué es "Android.ListView"?
-> Máster en Desarrollo de Aplicaciones Android - La vista ListView. (n.d.). http://www.androidcurso.com/index.php/128
-
 #### ¿Qué es "Android.NFC"?
 > Android Developers. (n.d.). android.nfc. Android Developers. https://developer.android.com/reference/android/nfc/package-summary
 
