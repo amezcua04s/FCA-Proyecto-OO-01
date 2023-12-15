@@ -1,7 +1,8 @@
 # Registrar Asistencia
 - El diagrama de estados de "Registrar Asistencia" representa visualmente los diferentes estados y transiciones que experimenta el sistema cuando se quiere hacer el registro de Asistencia en el sistema [SATMI](/Diseño/Proposito.md), desde el inicio hasta la finalización del proceso.
 
-![Captura de Pantalla 2023-12-12 a la(s) 0 04 01](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/125850397/068134ec-790c-4a39-8ebf-667ae4e94892)
+![image](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/147119596/d37ff796-35ee-465b-8277-9ca361e5a24f)
+
 
 
 
@@ -15,7 +16,8 @@ state Registrar_Asistencia {
 state c <<choice>>
 
 
-[*] -- Grupo_Seleccionado : Selecciona Grupo
+[*] -- Mateia_Seleccionaa: Selecciona Materia
+Grupo_Seleccionado : Selecciona Grupo
 Grupo_Seleccionado -- c : Acerca Tarjeta a Lector
 c -- Tarjeta_Leída : Aceptada
 c -- Tarjeta_No_Leída : En espera
