@@ -84,4 +84,5 @@ DataSource -> InformeDAO
 @enduml  -->
 # Diagrama de clases
 ## El diagrama representa las clases e interfaces que conforman el sistema y cómo es que se relacionan entre ellas. 
-![Diagrama de clases](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/119078847/e30956d9-a36e-4822-bffc-a7aa37e3e822)
+![image](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/147119596/71e6e091-83cb-4c5b-b89d-7409e4f833fc)
+
