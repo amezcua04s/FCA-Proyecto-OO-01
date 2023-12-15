@@ -44,4 +44,5 @@ grp ||..|| ALG
 lmn }..|{ ALG
 
 @enduml-->
-![Diagrama de datos](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/119078847/8916f473-a104-4992-8c52-83160a3a4f66)
+![image](https://github.com/amezcua04s/FCA-Proyecto-OO-01/assets/147119596/cf895be2-1d8a-40b3-b78b-6bf7ea3072af)
+
